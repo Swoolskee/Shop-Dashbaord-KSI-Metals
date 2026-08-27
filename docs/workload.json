@@ -1,0 +1,12 @@
+{
+  "generated_at": "2026-08-27T00:00:00-07:00",
+  "target_date": "2026-08-27",
+  "target_label": "Waiting for first data pull…",
+  "stations": [
+    {"name": "Hayes", "unit": "linear ft", "due_today": 0, "scheduled": 0, "total": 0, "due_today_jobs": 0, "scheduled_jobs": 0},
+    {"name": "Snaplock", "unit": "linear ft", "due_today": 0, "scheduled": 0, "total": 0, "due_today_jobs": 0, "scheduled_jobs": 0},
+    {"name": "Bend", "unit": "pieces", "due_today": 0, "scheduled": 0, "total": 0, "due_today_jobs": 0, "scheduled_jobs": 0},
+    {"name": "Pull Pallets/Shear", "unit": "pieces", "due_today": 0, "scheduled": 0, "total": 0, "due_today_jobs": 0, "scheduled_jobs": 0}
+  ],
+  "stale_rows_excluded": 0
+}

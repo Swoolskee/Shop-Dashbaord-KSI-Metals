@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Shop Floor Status</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --bg-base: #1B1E21;
+    --bg-panel: #24282C;
+    --bg-panel-hi: #2C3136;
+    --border: #383D42;
+    --goal: #F2A93B;
+    --goal-dim: #6B5530;
+    --stretch: #4FA3D1;
+    --stretch-dim: #2E4D5C;
+    --text-primary: #F4F2ED;
+    --text-muted: #8B929A;
+    --danger: #E2574C;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  html, body {
+    height: 100%;
+    background: var(--bg-base);
+    color: var(--text-primary);
+    font-family: 'Inter', system-ui, sans-serif;
+    overflow: hidden;
+  }
+  body {
+    display: flex;
+    flex-direction: column;
+    padding: clamp(16px, 2.2vw, 36px);
+    gap: clamp(14px, 1.8vw, 28px);
+  }
+
+  /* ---- Stale data warning banner ---- */
+  #stale-banner {
+    display: none;
+    background: var(--danger);
+    color: #fff;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    text-align: center;
+    padding: 10px;
+    border-radius: 6px;
+    letter-spacing: 0.02em;
+  }
+  #stale-banner.show { display: block; }
+
+  /* ---- Header: stamped nameplate ---- */
+  .nameplate {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: linear-gradient(180deg, #2A2F34 0%, #21252A 100%);
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    padding: clamp(14px, 1.6vw, 26px) clamp(20px, 2.4vw, 40px);
+    position: relative;
+    box-shadow: inset 0 1px 0 rgba(255,255,255,0.04), 0 6px 18px rgba(0,0,0,0.35);
+  }
+  .rivet {
+    position: absolute;
+    width: 10px; height: 10px;
+    border-radius: 50%;
+    background: radial-gradient(circle at 35% 30%, #6b7176, #3a3e42 70%);
+    box-shadow: 0 1px 2px rgba(0,0,0,0.6);
+  }
+  .rivet.tl { top: 8px; left: 10px; }
+  .rivet.tr { top: 8px; right: 10px; }
+  .rivet.bl { bottom: 8px; left: 10px; }
+  .rivet.br { bottom: 8px; right: 10px; }
+
+  .nameplate-left .eyebrow {
+    font-family: 'Inter', sans-serif;
+    font-size: clamp(11px, 0.9vw, 15px);
+    font-weight: 600;
+    letter-spacing: 0.14em;
+    color: var(--text-muted);
+    text-transform: uppercase;
+  }
+  .nameplate-left .date {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 600;
+    font-size: clamp(26px, 3.4vw, 52px);
+    letter-spacing: 0.01em;
+    line-height: 1.05;
+  }
+  .nameplate-right {
+    text-align: right;
+  }
+  .nameplate-right .clock {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: clamp(20px, 2.4vw, 38px);
+    font-weight: 500;
+    color: var(--text-primary);
+  }
+  .nameplate-right .tz {
+    font-family: 'Inter', sans-serif;
+    font-size: clamp(10px, 0.8vw, 13px);
+    color: var(--text-muted);
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+  }
+
+  /* ---- Legend ---- */
+  .legend {
+    display: flex;
+    gap: clamp(16px, 2vw, 32px);
+    font-family: 'Inter', sans-serif;
+    font-size: clamp(11px, 0.85vw, 14px);
+    color: var(--text-muted);
+    padding-left: 4px;
+  }
+  .legend span { display: flex; align-items: center; gap: 8px; }
+  .swatch { width: 12px; height: 12px; border-radius: 3px; }
+  .swatch.goal { background: var(--goal); }
+  .swatch.stretch { background: var(--stretch); }
+
+  /* ---- Station grid ---- */
+  .grid {
+    flex: 1;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: clamp(12px, 1.6vw, 24px);
+    min-height: 0;
+  }
+  @media (max-aspect-ratio: 4/3) {
+    .grid { grid-template-columns: repeat(2, 1fr); }
+  }
+
+  .card {
+    background: var(--bg-panel);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: clamp(16px, 1.8vw, 30px);
+    display: flex;
+    flex-direction: column;
+    min-height: 0;
+  }
+  .card .station-name {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    font-size: clamp(15px, 1.3vw, 22px);
+    color: var(--text-primary);
+    border-bottom: 2px solid var(--border);
+    padding-bottom: clamp(8px, 0.8vw, 14px);
+    margin-bottom: clamp(10px, 1.2vw, 18px);
+  }
+
+  .metric { display: flex; flex-direction: column; }
+  .metric .label {
+    font-family: 'Inter', sans-serif;
+    font-size: clamp(11px, 0.85vw, 14px);
+    font-weight: 600;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+  }
+  .metric.goal .label { color: var(--goal); }
+  .metric.stretch .label { color: var(--stretch); }
+  .metric .value {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 700;
+    line-height: 1;
+  }
+  .metric.goal .value {
+    font-size: clamp(42px, 5.6vw, 92px);
+    color: var(--text-primary);
+    margin: 4px 0 2px;
+  }
+  .metric.stretch .value {
+    font-size: clamp(24px, 3vw, 48px);
+    color: var(--text-muted);
+    margin: 2px 0;
+  }
+  .metric .unit {
+    font-family: 'Inter', sans-serif;
+    font-size: clamp(10px, 0.8vw, 13px);
+    color: var(--text-muted);
+  }
+  .divider {
+    flex: 1;
+    min-height: 8px;
+    display: flex;
+    align-items: flex-end;
+  }
+  .card-footer {
+    margin-top: clamp(8px, 1vw, 14px);
+    padding-top: clamp(8px, 1vw, 14px);
+    border-top: 1px solid var(--border);
+    font-family: 'JetBrains Mono', monospace;
+    font-size: clamp(11px, 0.85vw, 14px);
+    color: var(--text-muted);
+    display: flex;
+    justify-content: space-between;
+  }
+
+  /* ---- Footer ---- */
+  .footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    font-family: 'Inter', sans-serif;
+    font-size: clamp(11px, 0.8vw, 13px);
+    color: var(--text-muted);
+  }
+  .pulse {
+    width: 8px; height: 8px; border-radius: 50%;
+    background: #4CAF50;
+    box-shadow: 0 0 0 rgba(76,175,80,0.6);
+    animation: pulse 2s infinite;
+  }
+  @keyframes pulse {
+    0% { box-shadow: 0 0 0 0 rgba(76,175,80,0.5); }
+    70% { box-shadow: 0 0 0 8px rgba(76,175,80,0); }
+    100% { box-shadow: 0 0 0 0 rgba(76,175,80,0); }
+  }
+</style>
+</head>
+<body>
+
+  <div id="stale-banner">DATA MAY BE OUT OF DATE — check that the update workflow is running</div>
+
+  <div class="nameplate">
+    <div class="rivet tl"></div><div class="rivet tr"></div>
+    <div class="rivet bl"></div><div class="rivet br"></div>
+    <div class="nameplate-left">
+      <div class="eyebrow">Shop Floor Status</div>
+      <div class="date" id="target-date">—</div>
+    </div>
+    <div class="nameplate-right">
+      <div class="clock" id="clock">--:--:--</div>
+      <div class="tz">Arizona Time</div>
+    </div>
+  </div>
+
+  <div class="legend">
+    <span><span class="swatch goal"></span>Due Today — the goal</span>
+    <span><span class="swatch stretch"></span>Scheduled — stretch pool (overdue + future)</span>
+  </div>
+
+  <div class="grid" id="station-grid">
+    <!-- station cards injected here -->
+  </div>
+
+  <div class="footer">
+    <span class="pulse"></span>
+    <span id="last-updated">Loading…</span>
+  </div>
+
+<script>
+  const STALE_THRESHOLD_MIN = 30;
+
+  function fmtClock() {
+    const now = new Date();
+    document.getElementById('clock').textContent = now.toLocaleTimeString('en-US', {
+      timeZone: 'America/Phoenix', hour12: false
+    });
+  }
+  setInterval(fmtClock, 1000);
+  fmtClock();
+
+  function renderStations(data) {
+    document.getElementById('target-date').textContent = data.target_label || '—';
+
+    const grid = document.getElementById('station-grid');
+    grid.innerHTML = '';
+    (data.stations || []).forEach(s => {
+      const card = document.createElement('div');
+      card.className = 'card';
+      card.innerHTML = `
+        <div class="station-name">${s.name}</div>
+        <div class="metric goal">
+          <span class="label">Due Today</span>
+          <span class="value">${s.due_today}</span>
+          <span class="unit">${s.unit}</span>
+        </div>
+        <div class="divider"></div>
+        <div class="metric stretch">
+          <span class="label">Scheduled</span>
+          <span class="value">${s.scheduled}</span>
+          <span class="unit">${s.unit}</span>
+        </div>
+        <div class="card-footer">
+          <span>Total ${s.total}</span>
+          <span>${s.due_today_jobs + s.scheduled_jobs} jobs</span>
+        </div>
+      `;
+      grid.appendChild(card);
+    });
+  }
+
+  function minutesAgo(iso) {
+    return (Date.now() - new Date(iso).getTime()) / 60000;
+  }
+
+  async function refresh() {
+    try {
+      const resp = await fetch('workload.json?t=' + Date.now(), { cache: 'no-store' });
+      if (!resp.ok) throw new Error('fetch failed: ' + resp.status);
+      const data = await resp.json();
+      renderStations(data);
+
+      const ageMin = minutesAgo(data.generated_at);
+      const banner = document.getElementById('stale-banner');
+      banner.classList.toggle('show', ageMin > STALE_THRESHOLD_MIN);
+
+      const genTime = new Date(data.generated_at).toLocaleTimeString('en-US', {
+        timeZone: 'America/Phoenix', hour12: false
+      });
+      document.getElementById('last-updated').textContent =
+        `Updated ${genTime} AZ (${Math.round(ageMin)} min ago)`;
+    } catch (err) {
+      document.getElementById('last-updated').textContent = 'Could not load workload.json — ' + err.message;
+      document.getElementById('stale-banner').classList.add('show');
+    }
+  }
+
+  refresh();
+  setInterval(refresh, 60000); // refresh every 60 seconds
+</script>
+</body>
+</html>
