@@ -1,0 +1,7 @@
+[build]
+  publish = "docs"
+
+[[headers]]
+  for = "/dashboard-data.json"
+  [headers.values]
+    Cache-Control = "no-store, no-cache, must-revalidate, max-age=0"
