@@ -1,13 +1,13 @@
 {
   "businessDate": "2026-09-15",
   "businessDateLabel": "TUESDAY, SEPTEMBER 15",
-  "generatedAt": "2026-09-15T20:24:40Z",
+  "generatedAt": "2026-09-15T22:24:00Z",
   "timeZone": "America/Phoenix",
   "stations": [
-    {"id":"hayes","name":"Hayes","shortName":"HY","unit":"LF","current":2975.8333,"goal":1390.8333,"canProduce":3470.8333,"remaining":0,"completedJobs":4,"goalJobs":5,"topOperator":"John Wrasse","topOperatorQuantity":2975.8333},
+    {"id":"hayes","name":"Hayes","shortName":"HY","unit":"LF","current":2975.8333,"goal":1390.8333,"canProduce":3999.8333,"remaining":0,"completedJobs":4,"goalJobs":5,"topOperator":"John Wrasse","topOperatorQuantity":2975.8333},
     {"id":"snaplock","name":"Snaplock","shortName":"SN","unit":"LF","current":0,"goal":649,"canProduce":3664.3333,"remaining":649,"completedJobs":0,"goalJobs":3,"topOperator":"—","topOperatorQuantity":0},
-    {"id":"bend","name":"Bend","shortName":"BD","unit":"PCS","current":617,"goal":450,"canProduce":1068,"remaining":0,"completedJobs":29,"goalJobs":37,"topOperator":"Justin A","topOperatorQuantity":429},
-    {"id":"pull-shear","name":"Pull Pallets / Shear","shortName":"PS","unit":"PCS","current":484,"goal":231,"canProduce":543,"remaining":0,"completedJobs":38,"goalJobs":38,"topOperator":"Xzavier","topOperatorQuantity":325}
+    {"id":"bend","name":"Bend","shortName":"BD","unit":"PCS","current":753,"goal":450,"canProduce":1103,"remaining":0,"completedJobs":35,"goalJobs":41,"topOperator":"Justin A","topOperatorQuantity":565},
+    {"id":"pull-shear","name":"Pull Pallets / Shear","shortName":"PS","unit":"PCS","current":578,"goal":231,"canProduce":578,"remaining":0,"completedJobs":51,"goalJobs":51,"topOperator":"Xzavier","topOperatorQuantity":419}
   ],
-  "summary":{"current":4076.8333,"goal":2720.8333,"canProduce":8746.1666,"remaining":649,"completedJobs":71,"goalJobs":83,"createdOrders":16}
+  "summary":{"current":4306.8333,"goal":2720.8333,"canProduce":9345.1666,"remaining":649,"completedJobs":90,"goalJobs":100,"createdOrders":20}
 }
