@@ -1,13 +1,13 @@
 {
   "businessDate": "2026-09-16",
   "businessDateLabel": "WEDNESDAY, SEPTEMBER 16",
-  "generatedAt": "2026-09-16T20:04:20Z",
+  "generatedAt": "2026-09-16T21:17:24Z",
   "timeZone": "America/Phoenix",
   "stations": [
-    {"id":"hayes","name":"Hayes","shortName":"HY","unit":"LF","current":896,"goal":492,"canProduce":2351.4166,"remaining":0,"completedJobs":3,"goalJobs":6,"topOperator":"Xzavier","topOperatorQuantity":848},
+    {"id":"hayes","name":"Hayes","shortName":"HY","unit":"LF","current":1349.6666,"goal":492,"canProduce":2432.4166,"remaining":0,"completedJobs":6,"goalJobs":9,"topOperator":"Xzavier","topOperatorQuantity":848},
     {"id":"snaplock","name":"Snaplock","shortName":"SN","unit":"LF","current":316,"goal":3371.66667,"canProduce":4158.5,"remaining":3055.66667,"completedJobs":3,"goalJobs":6,"topOperator":"Lee Rosenberg","topOperatorQuantity":316},
-    {"id":"bend","name":"Bend","shortName":"BD","unit":"PCS","current":157,"goal":253,"canProduce":886,"remaining":96,"completedJobs":20,"goalJobs":29,"topOperator":"Justin A","topOperatorQuantity":157},
-    {"id":"pull-shear","name":"Pull Pallets / Shear","shortName":"PS","unit":"PCS","current":184,"goal":0,"canProduce":546,"remaining":0,"completedJobs":32,"goalJobs":32,"topOperator":"Xzavier","topOperatorQuantity":184}
+    {"id":"bend","name":"Bend","shortName":"BD","unit":"PCS","current":178,"goal":253,"canProduce":889,"remaining":75,"completedJobs":24,"goalJobs":33,"topOperator":"Justin A","topOperatorQuantity":178},
+    {"id":"pull-shear","name":"Pull Pallets / Shear","shortName":"PS","unit":"PCS","current":184,"goal":0,"canProduce":549,"remaining":0,"completedJobs":32,"goalJobs":32,"topOperator":"Xzavier","topOperatorQuantity":184}
   ],
-  "summary":{"current":1553,"goal":4116.66667,"canProduce":7941.9166,"remaining":3151.66667,"completedJobs":58,"goalJobs":73,"createdOrders":20}
+  "summary":{"current":2027.6666,"goal":4116.66667,"canProduce":8028.9166,"remaining":3130.66667,"completedJobs":65,"goalJobs":80,"createdOrders":20}
 }
