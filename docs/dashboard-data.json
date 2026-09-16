@@ -1,13 +1,13 @@
 {
   "businessDate": "2026-09-16",
   "businessDateLabel": "WEDNESDAY, SEPTEMBER 16",
-  "generatedAt": "2026-09-16T15:59:05Z",
+  "generatedAt": "2026-09-16T17:07:00Z",
   "timeZone": "America/Phoenix",
   "stations": [
-    {"id":"hayes","name":"Hayes","shortName":"HY","unit":"LF","current":577,"goal":492,"canProduce":1402.0833,"remaining":0,"completedJobs":2,"goalJobs":6,"topOperator":"Xzavier","topOperatorQuantity":529},
-    {"id":"snaplock","name":"Snaplock","shortName":"SN","unit":"LF","current":51.66667,"goal":3371.66667,"canProduce":3676,"remaining":3320,"completedJobs":2,"goalJobs":5,"topOperator":"Lee Rosenberg","topOperatorQuantity":51.66667},
-    {"id":"bend","name":"Bend","shortName":"BD","unit":"PCS","current":66,"goal":253,"canProduce":438,"remaining":187,"completedJobs":7,"goalJobs":16,"topOperator":"Justin A","topOperatorQuantity":66},
-    {"id":"pull-shear","name":"Pull Pallets / Shear","shortName":"PS","unit":"PCS","current":12,"goal":0,"canProduce":98,"remaining":0,"completedJobs":3,"goalJobs":3,"topOperator":"Xzavier","topOperatorQuantity":12}
+    {"id":"hayes","name":"Hayes","shortName":"HY","unit":"LF","current":577,"goal":492,"canProduce":2180.3333,"remaining":0,"completedJobs":2,"goalJobs":6,"topOperator":"Xzavier","topOperatorQuantity":529},
+    {"id":"snaplock","name":"Snaplock","shortName":"SN","unit":"LF","current":316,"goal":3371.66667,"canProduce":3676,"remaining":3055.66667,"completedJobs":3,"goalJobs":6,"topOperator":"Lee Rosenberg","topOperatorQuantity":316},
+    {"id":"bend","name":"Bend","shortName":"BD","unit":"PCS","current":74,"goal":253,"canProduce":490,"remaining":179,"completedJobs":9,"goalJobs":18,"topOperator":"Justin A","topOperatorQuantity":74},
+    {"id":"pull-shear","name":"Pull Pallets / Shear","shortName":"PS","unit":"PCS","current":105,"goal":0,"canProduce":150,"remaining":0,"completedJobs":15,"goalJobs":15,"topOperator":"Xzavier","topOperatorQuantity":105}
   ],
-  "summary":{"current":706.66667,"goal":4116.66667,"canProduce":5614.0833,"remaining":3507,"completedJobs":14,"goalJobs":30,"createdOrders":5}
+  "summary":{"current":1072,"goal":4116.66667,"canProduce":6496.3333,"remaining":3234.66667,"completedJobs":29,"goalJobs":45,"createdOrders":9}
 }
