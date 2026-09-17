@@ -1,13 +1,13 @@
 {
-  "businessDate": "2026-09-14",
-  "businessDateLabel": "MONDAY, SEPTEMBER 14",
-  "generatedAt": "2026-09-14T14:02:20Z",
+  "businessDate": "2026-09-17",
+  "businessDateLabel": "THURSDAY, SEPTEMBER 17",
+  "generatedAt": "2026-09-17T21:17:08Z",
   "timeZone": "America/Phoenix",
   "stations": [
-    {"id":"hayes","name":"Hayes","shortName":"HY","unit":"LF","current":0,"goal":25,"remaining":25,"completedJobs":0,"goalJobs":1,"topOperator":"—","topOperatorQuantity":0},
-    {"id":"snaplock","name":"Snaplock","shortName":"SN","unit":"LF","current":0,"goal":539,"remaining":539,"completedJobs":0,"goalJobs":1,"topOperator":"—","topOperatorQuantity":0},
-    {"id":"bend","name":"Bend","shortName":"BD","unit":"PCS","current":7,"goal":54,"remaining":47,"completedJobs":3,"goalJobs":6,"topOperator":"Justin A","topOperatorQuantity":7},
-    {"id":"pull-shear","name":"Pull Pallets / Shear","shortName":"PS","unit":"PCS","current":4,"goal":44,"remaining":40,"completedJobs":2,"goalJobs":3,"topOperator":"Justin A","topOperatorQuantity":4}
+    {"id":"hayes","name":"Hayes","shortName":"HY","unit":"LF","current":2394.1666,"goal":2928.4166,"remaining":534.25,"completedJobs":9,"goalJobs":13,"topOperator":"Xzavier","topOperatorQuantity":1668.5},
+    {"id":"snaplock","name":"Snaplock","shortName":"SN","unit":"LF","current":752.5,"goal":752.5,"remaining":0,"completedJobs":3,"goalJobs":3,"topOperator":"Lee Rosenberg","topOperatorQuantity":752.5},
+    {"id":"bend","name":"Bend","shortName":"BD","unit":"PCS","current":157,"goal":373,"remaining":216,"completedJobs":22,"goalJobs":29,"topOperator":"Justin A","topOperatorQuantity":147.5},
+    {"id":"pull-shear","name":"Pull Pallets / Shear","shortName":"PS","unit":"PCS","current":101,"goal":119,"remaining":18,"completedJobs":15,"goalJobs":16,"topOperator":"Xzavier","topOperatorQuantity":101}
   ],
-  "summary":{"current":11,"goal":662,"remaining":651,"completedJobs":5,"goalJobs":11,"createdOrders":0}
+  "summary":{"current":3404.6666,"goal":4172.9166,"remaining":768.25,"completedJobs":49,"goalJobs":61,"createdOrders":10}
 }
