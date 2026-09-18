@@ -1,13 +1,13 @@
 {
-  "businessDate": "2026-09-17",
-  "businessDateLabel": "THURSDAY, SEPTEMBER 17",
-  "generatedAt": "2026-09-17T23:36:24Z",
+  "businessDate": "2026-09-18",
+  "businessDateLabel": "FRIDAY, SEPTEMBER 18",
+  "generatedAt": "2026-09-18T14:19:00Z",
   "timeZone": "America/Phoenix",
   "stations": [
-    {"id":"hayes","name":"Hayes","shortName":"HY","unit":"LF","current":2404.1666,"goal":2928.4166,"remaining":524.25,"completedJobs":10,"goalJobs":14,"topOperator":"Xzavier","topOperatorQuantity":1668.5},
-    {"id":"snaplock","name":"Snaplock","shortName":"SN","unit":"LF","current":752.5,"goal":752.5,"remaining":0,"completedJobs":3,"goalJobs":3,"topOperator":"Lee Rosenberg","topOperatorQuantity":752.5},
-    {"id":"bend","name":"Bend","shortName":"BD","unit":"PCS","current":254,"goal":373,"remaining":119,"completedJobs":37,"goalJobs":39,"topOperator":"Justin A","topOperatorQuantity":244.5},
-    {"id":"pull-shear","name":"Pull Pallets / Shear","shortName":"PS","unit":"PCS","current":121,"goal":119,"remaining":0,"completedJobs":18,"goalJobs":18,"topOperator":"Xzavier","topOperatorQuantity":103}
+    {"id":"hayes","name":"Hayes","shortName":"HY","unit":"LF","current":0,"goal":534.25,"remaining":534.25,"completedJobs":0,"goalJobs":4,"topOperator":"—","topOperatorQuantity":0},
+    {"id":"snaplock","name":"Snaplock","shortName":"SN","unit":"LF","current":0,"goal":0,"remaining":0,"completedJobs":0,"goalJobs":0,"topOperator":"—","topOperatorQuantity":0},
+    {"id":"bend","name":"Bend","shortName":"BD","unit":"PCS","current":2,"goal":155,"remaining":153,"completedJobs":2,"goalJobs":4,"topOperator":"Justin A","topOperatorQuantity":2},
+    {"id":"pull-shear","name":"Pull Pallets / Shear","shortName":"PS","unit":"PCS","current":28,"goal":28,"remaining":0,"completedJobs":2,"goalJobs":2,"topOperator":"Xzavier","topOperatorQuantity":28}
   ],
-  "summary":{"current":3531.6666,"goal":4172.9166,"remaining":643.25,"completedJobs":68,"goalJobs":74,"createdOrders":12}
+  "summary":{"current":30,"goal":717.25,"remaining":687.25,"completedJobs":4,"goalJobs":10,"createdOrders":1}
 }
