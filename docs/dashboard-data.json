@@ -1,7 +1,7 @@
 {
   "businessDate": "2026-09-18",
   "businessDateLabel": "FRIDAY, SEPTEMBER 18",
-  "generatedAt": "2026-09-18T15:03:45Z",
+  "generatedAt": "2026-09-18T16:08:00Z",
   "timeZone": "America/Phoenix",
   "stations": [
     {"id":"hayes","name":"Hayes","shortName":"HY","unit":"LF","current":0,"goal":534.25,"canProduce":624.75,"remaining":534.25,"completedJobs":0,"goalJobs":5,"topOperator":"—","topOperatorQuantity":0},
@@ -9,5 +9,5 @@
     {"id":"bend","name":"Bend","shortName":"BD","unit":"PCS","current":30,"goal":155,"canProduce":640,"remaining":125,"completedJobs":4,"goalJobs":6,"topOperator":"Justin A","topOperatorQuantity":30},
     {"id":"pull-shear","name":"Pull Pallets / Shear","shortName":"PS","unit":"PCS","current":81,"goal":28,"canProduce":485,"remaining":0,"completedJobs":6,"goalJobs":6,"topOperator":"Xzavier","topOperatorQuantity":81}
   ],
-  "summary":{"current":111,"goal":717.25,"canProduce":1749.75,"remaining":659.25,"completedJobs":10,"goalJobs":17,"createdOrders":1}
+  "summary":{"current":111,"goal":717.25,"canProduce":1749.75,"remaining":659.25,"completedJobs":10,"goalJobs":17,"createdOrders":2}
 }
