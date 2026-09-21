@@ -1,13 +1,13 @@
 {
   "businessDate":"2026-09-21",
   "businessDateLabel":"MONDAY, SEPTEMBER 21",
-  "generatedAt":"2026-09-21T17:31:30Z",
+  "generatedAt":"2026-09-21T17:35:00Z",
   "timeZone":"America/Phoenix",
   "stations":[
-    {"id":"hayes","name":"Hayes","shortName":"HY","unit":"LF","current":454.9208,"goal":979.6708,"canProduce":979.6708,"remaining":524.75,"completedJobs":3,"goalJobs":6,"topOperator":"Lee Rosenberg","topOperatorQuantity":454.9208},
+    {"id":"hayes","name":"Hayes","shortName":"HY","unit":"LF","current":454.9208,"goal":935.08,"canProduce":979.6708,"remaining":480.1592,"completedJobs":3,"goalJobs":6,"topOperator":"Lee Rosenberg","topOperatorQuantity":454.9208},
     {"id":"snaplock","name":"Snaplock","shortName":"SN","unit":"LF","current":0,"goal":0,"canProduce":0,"remaining":0,"completedJobs":0,"goalJobs":0,"topOperator":"-","topOperatorQuantity":0},
-    {"id":"bend","name":"Bend","shortName":"BD","unit":"PCS","current":178,"goal":370,"canProduce":530,"remaining":192,"completedJobs":4,"goalJobs":13,"topOperator":"Justin A","topOperatorQuantity":160},
-    {"id":"pull-shear","name":"Pull Pallets / Shear","shortName":"PS","unit":"PCS","current":71,"goal":73,"canProduce":162,"remaining":2,"completedJobs":16,"goalJobs":17,"topOperator":"Xzavier","topOperatorQuantity":71}
+    {"id":"bend","name":"Bend","shortName":"BD","unit":"PCS","current":178,"goal":177,"canProduce":530,"remaining":0,"completedJobs":4,"goalJobs":13,"topOperator":"Justin A","topOperatorQuantity":160},
+    {"id":"pull-shear","name":"Pull Pallets / Shear","shortName":"PS","unit":"PCS","current":71,"goal":24,"canProduce":162,"remaining":0,"completedJobs":16,"goalJobs":17,"topOperator":"Xzavier","topOperatorQuantity":71}
   ],
-  "summary":{"current":703.9208,"goal":1422.6708,"canProduce":1671.6708,"remaining":718.75,"completedJobs":23,"goalJobs":36,"createdOrders":9}
+  "summary":{"current":703.9208,"goal":1136.08,"canProduce":1671.6708,"remaining":480.1592,"completedJobs":23,"goalJobs":36,"createdOrders":9}
 }
