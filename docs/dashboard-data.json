@@ -1,13 +1,13 @@
 {
-  "businessDate":"2026-09-18",
-  "businessDateLabel":"FRIDAY, SEPTEMBER 18",
-  "generatedAt":"2026-09-18T21:04:00Z",
+  "businessDate":"2026-09-21",
+  "businessDateLabel":"MONDAY, SEPTEMBER 21",
+  "generatedAt":"2026-09-21T17:31:30Z",
   "timeZone":"America/Phoenix",
   "stations":[
-    {"id":"hayes","name":"Hayes","shortName":"HY","unit":"LF","current":263,"goal":534.25,"canProduce":887.75,"remaining":271.25,"completedJobs":2,"goalJobs":5,"topOperator":"John Wrasse","topOperatorQuantity":204},
+    {"id":"hayes","name":"Hayes","shortName":"HY","unit":"LF","current":454.9208,"goal":979.6708,"canProduce":979.6708,"remaining":524.75,"completedJobs":3,"goalJobs":6,"topOperator":"Lee Rosenberg","topOperatorQuantity":454.9208},
     {"id":"snaplock","name":"Snaplock","shortName":"SN","unit":"LF","current":0,"goal":0,"canProduce":0,"remaining":0,"completedJobs":0,"goalJobs":0,"topOperator":"-","topOperatorQuantity":0},
-    {"id":"bend","name":"Bend","shortName":"BD","unit":"PCS","current":168,"goal":155,"canProduce":640,"remaining":0,"completedJobs":11,"goalJobs":6,"topOperator":"Justin A","topOperatorQuantity":168},
-    {"id":"pull-shear","name":"Pull Pallets / Shear","shortName":"PS","unit":"PCS","current":486,"goal":28,"canProduce":486,"remaining":0,"completedJobs":11,"goalJobs":6,"topOperator":"Xzavier","topOperatorQuantity":485}
+    {"id":"bend","name":"Bend","shortName":"BD","unit":"PCS","current":178,"goal":370,"canProduce":530,"remaining":192,"completedJobs":4,"goalJobs":13,"topOperator":"Justin A","topOperatorQuantity":160},
+    {"id":"pull-shear","name":"Pull Pallets / Shear","shortName":"PS","unit":"PCS","current":71,"goal":73,"canProduce":162,"remaining":2,"completedJobs":16,"goalJobs":17,"topOperator":"Xzavier","topOperatorQuantity":71}
   ],
-  "summary":{"current":917,"goal":717.25,"canProduce":2013.75,"remaining":271.25,"completedJobs":24,"goalJobs":17,"createdOrders":7}
+  "summary":{"current":703.9208,"goal":1422.6708,"canProduce":1671.6708,"remaining":718.75,"completedJobs":23,"goalJobs":36,"createdOrders":9}
 }
