@@ -2,11 +2,11 @@ name: Prod KSI Auto Refresh
 
 on:
   schedule:
-    # Arizona is UTC-7 year-round.
-    # 7:00 AM snapshot, hourly 8:00 AM-3:00 PM, final 3:30 PM refresh.
-    - cron: "0 14 * * *"
-    - cron: "0 15-22 * * *"
-    - cron: "30 22 * * *"
+    # Run off the top of the hour to reduce GitHub schedule delays/drops.
+    # First successful run after 7 AM snapshots Goal Today; later runs preserve it.
+    # Twice-hourly gives us a fallback if GitHub skips one scheduled event.
+    - cron: "12,42 7-15 * * *"
+      timezone: "America/Phoenix"
   workflow_dispatch:
   push:
     paths:
