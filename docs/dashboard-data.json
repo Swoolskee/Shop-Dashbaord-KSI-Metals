@@ -1,7 +1,7 @@
 {
   "businessDate": "2026-09-22",
   "businessDateLabel": "TUESDAY, SEPTEMBER 22",
-  "generatedAt": "2026-09-22T22:56:27Z",
+  "generatedAt": "2026-09-22T23:14:59Z",
   "timeZone": "America/Phoenix",
   "stations": [
     {
@@ -24,7 +24,7 @@
       "shortName": "SN",
       "unit": "LF",
       "current": 181.25,
-      "goal": 0,
+      "goal": 0.0,
       "canProduce": 181.25,
       "remaining": 0,
       "completedJobs": 1,
@@ -37,37 +37,37 @@
       "name": "Bend",
       "shortName": "BD",
       "unit": "PCS",
-      "current": 212,
-      "goal": 156,
-      "canProduce": 627,
+      "current": 233.0,
+      "goal": 156.0,
+      "canProduce": 627.0,
       "remaining": 0,
-      "completedJobs": 29,
-      "goalJobs": 32,
+      "completedJobs": 30,
+      "goalJobs": 33,
       "topOperator": "Justin A",
-      "topOperatorQuantity": 212
+      "topOperatorQuantity": 233.0
     },
     {
       "id": "pull-shear",
       "name": "Pull Pallets / Shear",
       "shortName": "PS",
       "unit": "PCS",
-      "current": 156,
-      "goal": 0,
-      "canProduce": 339,
+      "current": 156.0,
+      "goal": 0.0,
+      "canProduce": 339.0,
       "remaining": 0,
       "completedJobs": 18,
       "goalJobs": 19,
       "topOperator": "Xzavier",
-      "topOperatorQuantity": 156
+      "topOperatorQuantity": 156.0
     }
   ],
   "summary": {
-    "current": 4650.7497,
+    "current": 4671.7497,
     "goal": 680.75,
     "canProduce": 7695.5831,
     "remaining": 0,
-    "completedJobs": 53,
-    "goalJobs": 60,
+    "completedJobs": 54,
+    "goalJobs": 61,
     "createdOrders": 25
   }
 }
