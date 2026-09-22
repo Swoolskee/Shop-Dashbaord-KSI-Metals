@@ -41,16 +41,16 @@ jobs:
 
       - name: Verify Katana secret exists
         env:
-          KATANA_API_KEY: ${{ secrets.KATANA_API_KEY }}
+          KATANA_API_KEY: ${{ secrets.Auto_Refresh_Katana }}
         run: |
           if [ -z "$KATANA_API_KEY" ]; then
-            echo "KATANA_API_KEY repository secret is missing."
+            echo "Auto_Refresh_Katana repository secret is missing."
             exit 1
           fi
 
       - name: Refresh Prod KSI data
         env:
-          KATANA_API_KEY: ${{ secrets.KATANA_API_KEY }}
+          KATANA_API_KEY: ${{ secrets.Auto_Refresh_Katana }}
         run: python scripts/update_prod_dashboard.py
 
       - name: Commit refreshed dashboard data
