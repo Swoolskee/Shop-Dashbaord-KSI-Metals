@@ -22,10 +22,15 @@ from pathlib import Path
 import requests
 
 BASE_URL = "https://api.katanamrp.com/v1"
-API_KEY = os.environ.get("KATANA_API_KEY")
+API_KEY = (os.environ.get("KATANA_API_KEY") or "").strip()
 if not API_KEY:
     print("ERROR: KATANA_API_KEY is not set", file=sys.stderr)
     sys.exit(1)
+
+# GitHub secret should normally contain only the raw Katana API token.
+# Be forgiving if someone pasted "Bearer <token>" instead.
+if API_KEY.lower().startswith("bearer "):
+    API_KEY = API_KEY[7:].strip()
 
 HEADERS = {"Authorization": f"Bearer {API_KEY}", "Accept": "application/json"}
 AZ = dt.timezone(dt.timedelta(hours=-7))
@@ -125,7 +130,18 @@ def top_operator(operator_qty):
     return name, qty
 
 
+def validate_auth():
+    try:
+        request_json("/manufacturing_order_operation_rows", {"limit": 1, "page": 1})
+    except RuntimeError as exc:
+        print("ERROR: Katana authentication failed.", file=sys.stderr)
+        print("Check the GitHub Actions secret named KATANA_API_KEY.", file=sys.stderr)
+        print("It must contain a valid Katana API token (raw token preferred; do not use an MCP login token).", file=sys.stderr)
+        raise
+
+
 def main():
+    validate_auth()
     now_az = dt.datetime.now(AZ)
     today = now_az.date()
     tomorrow = today + dt.timedelta(days=1)
