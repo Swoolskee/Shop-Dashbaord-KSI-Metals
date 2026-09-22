@@ -2,10 +2,10 @@ name: Prod KSI Auto Refresh
 
 on:
   schedule:
-    # Run off the top of the hour to reduce GitHub schedule delays/drops.
-    # First successful run after 7 AM snapshots Goal Today; later runs preserve it.
-    # Twice-hourly gives us a fallback if GitHub skips one scheduled event.
-    - cron: "12,42 7-15 * * *"
+    # Arizona shop-floor refresh cadence.
+    # First successful run at 6:42 AM snapshots Goal Today; later runs preserve it.
+    # Then refresh once per hour through 3:42 PM.
+    - cron: "42 6-15 * * *"
       timezone: "America/Phoenix"
   workflow_dispatch:
   push:
