@@ -1,7 +1,7 @@
 {
   "businessDate": "2026-09-22",
   "businessDateLabel": "TUESDAY, SEPTEMBER 22",
-  "generatedAt": "2026-09-22T21:51:27Z",
+  "generatedAt": "2026-09-22T22:56:27Z",
   "timeZone": "America/Phoenix",
   "stations": [
     {
@@ -11,7 +11,7 @@
       "unit": "LF",
       "current": 4101.4997,
       "goal": 524.75,
-      "canProduce": 6172.4164,
+      "canProduce": 6548.3331,
       "remaining": 0,
       "completedJobs": 5,
       "goalJobs": 8,
@@ -23,51 +23,51 @@
       "name": "Snaplock",
       "shortName": "SN",
       "unit": "LF",
-      "current": 0,
+      "current": 181.25,
       "goal": 0,
-      "canProduce": 0,
+      "canProduce": 181.25,
       "remaining": 0,
-      "completedJobs": 0,
-      "goalJobs": 0,
-      "topOperator": "-",
-      "topOperatorQuantity": 0
+      "completedJobs": 1,
+      "goalJobs": 1,
+      "topOperator": "Lee Rosenberg",
+      "topOperatorQuantity": 181.25
     },
     {
       "id": "bend",
       "name": "Bend",
       "shortName": "BD",
       "unit": "PCS",
-      "current": 165,
+      "current": 212,
       "goal": 156,
-      "canProduce": 600,
+      "canProduce": 627,
       "remaining": 0,
-      "completedJobs": 26,
-      "goalJobs": 29,
+      "completedJobs": 29,
+      "goalJobs": 32,
       "topOperator": "Justin A",
-      "topOperatorQuantity": 165
+      "topOperatorQuantity": 212
     },
     {
       "id": "pull-shear",
       "name": "Pull Pallets / Shear",
       "shortName": "PS",
       "unit": "PCS",
-      "current": 152,
+      "current": 156,
       "goal": 0,
-      "canProduce": 312,
+      "canProduce": 339,
       "remaining": 0,
-      "completedJobs": 15,
-      "goalJobs": 16,
+      "completedJobs": 18,
+      "goalJobs": 19,
       "topOperator": "Xzavier",
-      "topOperatorQuantity": 152
+      "topOperatorQuantity": 156
     }
   ],
   "summary": {
-    "current": 4418.4997,
+    "current": 4650.7497,
     "goal": 680.75,
-    "canProduce": 7084.4164,
+    "canProduce": 7695.5831,
     "remaining": 0,
-    "completedJobs": 46,
-    "goalJobs": 53,
-    "createdOrders": 21
+    "completedJobs": 53,
+    "goalJobs": 60,
+    "createdOrders": 25
   }
 }
