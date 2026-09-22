@@ -1,13 +1,13 @@
 {
-  "businessDate":"2026-09-21",
-  "businessDateLabel":"MONDAY, SEPTEMBER 21",
-  "generatedAt":"2026-09-21T22:38:30Z",
+  "businessDate":"2026-09-22",
+  "businessDateLabel":"TUESDAY, SEPTEMBER 22",
+  "generatedAt":"2026-09-22T14:04:30Z",
   "timeZone":"America/Phoenix",
   "stations":[
-    {"id":"hayes","name":"Hayes","shortName":"HY","unit":"LF","current":454.9208,"goal":935.08,"canProduce":2873.1705,"remaining":480.1592,"completedJobs":3,"goalJobs":6,"topOperator":"Lee Rosenberg","topOperatorQuantity":454.9208},
+    {"id":"hayes","name":"Hayes","shortName":"HY","unit":"LF","current":0,"goal":524.75,"canProduce":2418.2497,"remaining":524.75,"completedJobs":0,"goalJobs":3,"topOperator":"-","topOperatorQuantity":0},
     {"id":"snaplock","name":"Snaplock","shortName":"SN","unit":"LF","current":0,"goal":0,"canProduce":0,"remaining":0,"completedJobs":0,"goalJobs":0,"topOperator":"-","topOperatorQuantity":0},
-    {"id":"bend","name":"Bend","shortName":"BD","unit":"PCS","current":285,"goal":177,"canProduce":636,"remaining":0,"completedJobs":24,"goalJobs":26,"topOperator":"Justin A","topOperatorQuantity":267},
-    {"id":"pull-shear","name":"Pull Pallets / Shear","shortName":"PS","unit":"PCS","current":232,"goal":24,"canProduce":268,"remaining":0,"completedJobs":35,"goalJobs":35,"topOperator":"Xzavier","topOperatorQuantity":230}
+    {"id":"bend","name":"Bend","shortName":"BD","unit":"PCS","current":3,"goal":156,"canProduce":314,"remaining":153,"completedJobs":1,"goalJobs":3,"topOperator":"Justin A","topOperatorQuantity":3},
+    {"id":"pull-shear","name":"Pull Pallets / Shear","shortName":"PS","unit":"PCS","current":0,"goal":0,"canProduce":26,"remaining":0,"completedJobs":0,"goalJobs":0,"topOperator":"-","topOperatorQuantity":0}
   ],
-  "summary":{"current":971.9208,"goal":1136.08,"canProduce":3777.1705,"remaining":480.1592,"completedJobs":62,"goalJobs":67,"createdOrders":20}
+  "summary":{"current":3,"goal":680.75,"canProduce":2758.2497,"remaining":677.75,"completedJobs":1,"goalJobs":6,"createdOrders":0}
 }
