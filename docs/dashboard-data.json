@@ -1,7 +1,7 @@
 {
   "businessDate": "2026-09-23",
   "businessDateLabel": "WEDNESDAY, SEPTEMBER 23",
-  "generatedAt": "2026-09-23T21:08:09Z",
+  "generatedAt": "2026-09-23T21:45:14Z",
   "timeZone": "America/Phoenix",
   "stations": [
     {
@@ -11,7 +11,7 @@
       "unit": "LF",
       "current": 3042.2501,
       "goal": 525.75,
-      "canProduce": 4140.3334,
+      "canProduce": 4220.8334,
       "remaining": 0,
       "completedJobs": 9,
       "goalJobs": 13,
@@ -24,8 +24,8 @@
       "shortName": "SN",
       "unit": "LF",
       "current": 124.5,
-      "goal": 0,
-      "canProduce": 124.5,
+      "goal": 0.0,
+      "canProduce": 187.5833,
       "remaining": 0,
       "completedJobs": 1,
       "goalJobs": 1,
@@ -37,37 +37,37 @@
       "name": "Bend",
       "shortName": "BD",
       "unit": "PCS",
-      "current": 155,
-      "goal": 244,
-      "canProduce": 664,
-      "remaining": 89,
-      "completedJobs": 27,
-      "goalJobs": 40,
+      "current": 172.0,
+      "goal": 244.0,
+      "canProduce": 678.0,
+      "remaining": 72.0,
+      "completedJobs": 30,
+      "goalJobs": 43,
       "topOperator": "Justin A",
-      "topOperatorQuantity": 155
+      "topOperatorQuantity": 172.0
     },
     {
       "id": "pull-shear",
       "name": "Pull Pallets / Shear",
       "shortName": "PS",
       "unit": "PCS",
-      "current": 197,
-      "goal": 91,
-      "canProduce": 453,
+      "current": 236.0,
+      "goal": 91.0,
+      "canProduce": 467.0,
       "remaining": 0,
-      "completedJobs": 31,
-      "goalJobs": 42,
+      "completedJobs": 41,
+      "goalJobs": 52,
       "topOperator": "Justin A",
-      "topOperatorQuantity": 120
+      "topOperatorQuantity": 120.0
     }
   ],
   "summary": {
-    "current": 3518.7501,
+    "current": 3574.7501,
     "goal": 860.75,
-    "canProduce": 5382.3334,
-    "remaining": 89,
-    "completedJobs": 68,
-    "goalJobs": 96,
-    "createdOrders": 30
+    "canProduce": 5553.416700000001,
+    "remaining": 72.0,
+    "completedJobs": 81,
+    "goalJobs": 109,
+    "createdOrders": 36
   }
 }
