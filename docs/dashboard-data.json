@@ -1,7 +1,7 @@
 {
   "businessDate": "2026-09-24",
   "businessDateLabel": "THURSDAY, SEPTEMBER 24",
-  "generatedAt": "2026-09-24T17:08:37Z",
+  "generatedAt": "2026-09-24T17:46:45Z",
   "timeZone": "America/Phoenix",
   "stations": [
     {
@@ -9,14 +9,14 @@
       "name": "Hayes",
       "shortName": "HY",
       "unit": "LF",
-      "current": 348.3333,
+      "current": 428.8333,
       "goal": 525.75,
       "canProduce": 1898.9166,
-      "remaining": 177.4167,
-      "completedJobs": 2,
-      "goalJobs": 6,
+      "remaining": 96.91669999999999,
+      "completedJobs": 4,
+      "goalJobs": 8,
       "topOperator": "John Wrasse",
-      "topOperatorQuantity": 348.3333
+      "topOperatorQuantity": 428.8333
     },
     {
       "id": "snaplock",
@@ -37,37 +37,37 @@
       "name": "Bend",
       "shortName": "BD",
       "unit": "PCS",
-      "current": 118.0,
+      "current": 137.0,
       "goal": 308.0,
-      "canProduce": 546.0,
-      "remaining": 190.0,
-      "completedJobs": 17,
-      "goalJobs": 39,
+      "canProduce": 554.0,
+      "remaining": 171.0,
+      "completedJobs": 21,
+      "goalJobs": 43,
       "topOperator": "Justin A",
-      "topOperatorQuantity": 118.0
+      "topOperatorQuantity": 137.0
     },
     {
       "id": "pull-shear",
       "name": "Pull Pallets / Shear",
       "shortName": "PS",
       "unit": "PCS",
-      "current": 203.0,
+      "current": 236.0,
       "goal": 138.0,
-      "canProduce": 300.0,
+      "canProduce": 308.0,
       "remaining": 0,
-      "completedJobs": 36,
-      "goalJobs": 47,
+      "completedJobs": 41,
+      "goalJobs": 52,
       "topOperator": "Xzavier",
-      "topOperatorQuantity": 189.0
+      "topOperatorQuantity": 222.0
     }
   ],
   "summary": {
-    "current": 732.4166,
+    "current": 864.9166,
     "goal": 971.75,
-    "canProduce": 2807.9999,
-    "remaining": 367.4167,
-    "completedJobs": 56,
-    "goalJobs": 93,
-    "createdOrders": 8
+    "canProduce": 2823.9999,
+    "remaining": 267.9167,
+    "completedJobs": 67,
+    "goalJobs": 104,
+    "createdOrders": 10
   }
 }
