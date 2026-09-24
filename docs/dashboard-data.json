@@ -1,7 +1,7 @@
 {
   "businessDate": "2026-09-24",
   "businessDateLabel": "THURSDAY, SEPTEMBER 24",
-  "generatedAt": "2026-09-24T17:07:56Z",
+  "generatedAt": "2026-09-24T17:08:37Z",
   "timeZone": "America/Phoenix",
   "stations": [
     {
@@ -11,7 +11,7 @@
       "unit": "LF",
       "current": 348.3333,
       "goal": 525.75,
-      "canProduce": 1058.9166,
+      "canProduce": 1898.9166,
       "remaining": 177.4167,
       "completedJobs": 2,
       "goalJobs": 6,
@@ -64,7 +64,7 @@
   "summary": {
     "current": 732.4166,
     "goal": 971.75,
-    "canProduce": 1967.9999,
+    "canProduce": 2807.9999,
     "remaining": 367.4167,
     "completedJobs": 56,
     "goalJobs": 93,
