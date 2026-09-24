@@ -1,7 +1,7 @@
 {
   "businessDate": "2026-09-24",
   "businessDateLabel": "THURSDAY, SEPTEMBER 24",
-  "generatedAt": "2026-09-24T21:47:43Z",
+  "generatedAt": "2026-09-24T22:34:26Z",
   "timeZone": "America/Phoenix",
   "stations": [
     {
@@ -9,12 +9,12 @@
       "name": "Hayes",
       "shortName": "HY",
       "unit": "LF",
-      "current": 1537.1666,
+      "current": 1585.1666,
       "goal": 525.75,
-      "canProduce": 2285.9999,
+      "canProduce": 2686.1666,
       "remaining": 0,
-      "completedJobs": 11,
-      "goalJobs": 15,
+      "completedJobs": 12,
+      "goalJobs": 16,
       "topOperator": "John Wrasse",
       "topOperatorQuantity": 1475.1666
     },
@@ -37,14 +37,14 @@
       "name": "Bend",
       "shortName": "BD",
       "unit": "PCS",
-      "current": 272.0,
+      "current": 277.0,
       "goal": 308.0,
-      "canProduce": 559.0,
-      "remaining": 36.0,
-      "completedJobs": 43,
-      "goalJobs": 56,
+      "canProduce": 580.0,
+      "remaining": 31.0,
+      "completedJobs": 44,
+      "goalJobs": 57,
       "topOperator": "Justin A",
-      "topOperatorQuantity": 272.0
+      "topOperatorQuantity": 277.0
     },
     {
       "id": "pull-shear",
@@ -53,7 +53,7 @@
       "unit": "PCS",
       "current": 252.0,
       "goal": 138.0,
-      "canProduce": 313.0,
+      "canProduce": 334.0,
       "remaining": 0,
       "completedJobs": 45,
       "goalJobs": 56,
@@ -62,12 +62,12 @@
     }
   ],
   "summary": {
-    "current": 2124.2499,
+    "current": 2177.2499,
     "goal": 971.75,
-    "canProduce": 3221.0831999999996,
-    "remaining": 36.0,
-    "completedJobs": 100,
-    "goalJobs": 128,
-    "createdOrders": 18
+    "canProduce": 3663.2499,
+    "remaining": 31.0,
+    "completedJobs": 102,
+    "goalJobs": 130,
+    "createdOrders": 20
   }
 }
