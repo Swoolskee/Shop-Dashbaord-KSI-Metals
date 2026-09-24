@@ -3,10 +3,9 @@ name: Prod KSI Auto Refresh
 on:
   schedule:
     # Arizona shop-floor refresh cadence.
+    # Arizona is UTC-7 year-round (no DST), so 13:42-22:42 UTC = 6:42 AM-3:42 PM America/Phoenix.
     # First successful run at 6:42 AM snapshots Goal Today; later runs preserve it.
-    # Then refresh once per hour through 3:42 PM.
-    - cron: "42 6-15 * * *"
-      timezone: "America/Phoenix"
+    - cron: "42 13-22 * * *"
   workflow_dispatch:
   push:
     paths:
