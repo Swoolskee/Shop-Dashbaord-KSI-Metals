@@ -1,7 +1,7 @@
 {
-  "businessDate": "2026-09-24",
-  "businessDateLabel": "THURSDAY, SEPTEMBER 24",
-  "generatedAt": "2026-09-24T23:59:44Z",
+  "businessDate": "2026-09-25",
+  "businessDateLabel": "FRIDAY, SEPTEMBER 25",
+  "generatedAt": "2026-09-25T15:46:47Z",
   "timeZone": "America/Phoenix",
   "stations": [
     {
@@ -9,65 +9,65 @@
       "name": "Hayes",
       "shortName": "HY",
       "unit": "LF",
-      "current": 1585.1666,
+      "current": 0.0,
       "goal": 525.75,
-      "canProduce": 2686.1666,
-      "remaining": 0,
-      "completedJobs": 12,
-      "goalJobs": 16,
-      "topOperator": "John Wrasse",
-      "topOperatorQuantity": 1475.1666
+      "canProduce": 1461.0,
+      "remaining": 525.75,
+      "completedJobs": 0,
+      "goalJobs": 4,
+      "topOperator": "-",
+      "topOperatorQuantity": 0
     },
     {
       "id": "snaplock",
       "name": "Snaplock",
       "shortName": "SN",
       "unit": "LF",
-      "current": 63.0833,
-      "goal": 0.0,
-      "canProduce": 63.0833,
-      "remaining": 0,
+      "current": 272.0,
+      "goal": 272.0,
+      "canProduce": 272.0,
+      "remaining": 0.0,
       "completedJobs": 1,
       "goalJobs": 1,
       "topOperator": "Lee Rosenberg",
-      "topOperatorQuantity": 63.0833
+      "topOperatorQuantity": 272.0
     },
     {
       "id": "bend",
       "name": "Bend",
       "shortName": "BD",
       "unit": "PCS",
-      "current": 277.0,
-      "goal": 308.0,
-      "canProduce": 611.0,
-      "remaining": 31.0,
-      "completedJobs": 44,
-      "goalJobs": 57,
+      "current": 72.0,
+      "goal": 286.0,
+      "canProduce": 356.0,
+      "remaining": 214.0,
+      "completedJobs": 11,
+      "goalJobs": 24,
       "topOperator": "Justin A",
-      "topOperatorQuantity": 277.0
+      "topOperatorQuantity": 72.0
     },
     {
       "id": "pull-shear",
       "name": "Pull Pallets / Shear",
       "shortName": "PS",
       "unit": "PCS",
-      "current": 252.0,
-      "goal": 138.0,
-      "canProduce": 365.0,
-      "remaining": 0,
-      "completedJobs": 45,
-      "goalJobs": 56,
+      "current": 72.0,
+      "goal": 133.0,
+      "canProduce": 135.0,
+      "remaining": 61.0,
+      "completedJobs": 15,
+      "goalJobs": 26,
       "topOperator": "Xzavier",
-      "topOperatorQuantity": 238.0
+      "topOperatorQuantity": 72.0
     }
   ],
   "summary": {
-    "current": 2177.2499,
-    "goal": 971.75,
-    "canProduce": 3725.2499,
-    "remaining": 31.0,
-    "completedJobs": 102,
-    "goalJobs": 130,
-    "createdOrders": 21
+    "current": 416.0,
+    "goal": 1216.75,
+    "canProduce": 2224.0,
+    "remaining": 800.75,
+    "completedJobs": 27,
+    "goalJobs": 55,
+    "createdOrders": 5
   }
 }
