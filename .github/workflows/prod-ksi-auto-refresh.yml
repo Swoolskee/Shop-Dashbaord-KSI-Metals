@@ -4,8 +4,8 @@ on:
   schedule:
     # Arizona shop-floor refresh cadence.
     # Arizona is UTC-7 year-round (no DST), so 13:42-22:42 UTC = 6:42 AM-3:42 PM America/Phoenix.
-    # First successful run at 6:42 AM snapshots Goal Today; later runs preserve it.
-    - cron: "42 13-22 * * *"
+    # Run weekdays only (Monday-Friday). First successful run at 6:42 AM snapshots Goal Today; later runs preserve it.
+    - cron: "42 13-22 * * 1-5"
   workflow_dispatch:
   push:
     paths:
