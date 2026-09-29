@@ -1,7 +1,7 @@
 {
   "businessDate": "2026-09-29",
   "businessDateLabel": "TUESDAY, SEPTEMBER 29",
-  "generatedAt": "2026-09-29T15:48:28Z",
+  "generatedAt": "2026-09-29T18:51:38Z",
   "timeZone": "America/Phoenix",
   "stations": [
     {
@@ -9,65 +9,65 @@
       "name": "Hayes",
       "shortName": "HY",
       "unit": "LF",
-      "current": 86.6667,
+      "current": 199.6667,
       "goal": 435.25,
-      "canProduce": 521.9167,
-      "remaining": 348.5833,
-      "completedJobs": 1,
-      "goalJobs": 4,
-      "topOperator": "Hayes",
-      "topOperatorQuantity": 86.6667
+      "canProduce": 1071.25,
+      "remaining": 235.5833,
+      "completedJobs": 3,
+      "goalJobs": 6,
+      "topOperator": "John Wrasse",
+      "topOperatorQuantity": 113.0
     },
     {
       "id": "snaplock",
       "name": "Snaplock",
       "shortName": "SN",
       "unit": "LF",
-      "current": 0.0,
+      "current": 2419.4166,
       "goal": 0.0,
       "canProduce": 2419.4166,
-      "remaining": 0.0,
-      "completedJobs": 0,
-      "goalJobs": 0,
-      "topOperator": "-",
-      "topOperatorQuantity": 0
+      "remaining": 0,
+      "completedJobs": 2,
+      "goalJobs": 2,
+      "topOperator": "Lee Rosenberg",
+      "topOperatorQuantity": 2419.4166
     },
     {
       "id": "bend",
       "name": "Bend",
       "shortName": "BD",
       "unit": "PCS",
-      "current": 40.0,
+      "current": 118.0,
       "goal": 284.0,
-      "canProduce": 596.0,
-      "remaining": 244.0,
-      "completedJobs": 1,
-      "goalJobs": 18,
+      "canProduce": 675.0,
+      "remaining": 166.0,
+      "completedJobs": 13,
+      "goalJobs": 30,
       "topOperator": "Justin A",
-      "topOperatorQuantity": 40.0
+      "topOperatorQuantity": 118.0
     },
     {
       "id": "pull-shear",
       "name": "Pull Pallets / Shear",
       "shortName": "PS",
       "unit": "PCS",
-      "current": 40.0,
+      "current": 164.0,
       "goal": 131.0,
-      "canProduce": 443.0,
-      "remaining": 91.0,
-      "completedJobs": 1,
-      "goalJobs": 16,
-      "topOperator": "John Wrasse",
-      "topOperatorQuantity": 40.0
+      "canProduce": 522.0,
+      "remaining": 0,
+      "completedJobs": 19,
+      "goalJobs": 34,
+      "topOperator": "Justin A",
+      "topOperatorQuantity": 124.0
     }
   ],
   "summary": {
-    "current": 166.6667,
+    "current": 2901.0833000000002,
     "goal": 850.25,
-    "canProduce": 3980.3333000000002,
-    "remaining": 683.5833,
-    "completedJobs": 3,
-    "goalJobs": 38,
-    "createdOrders": 5
+    "canProduce": 4687.6666000000005,
+    "remaining": 401.5833,
+    "completedJobs": 37,
+    "goalJobs": 72,
+    "createdOrders": 9
   }
 }
