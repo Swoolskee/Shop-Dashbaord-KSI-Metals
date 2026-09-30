@@ -1,7 +1,7 @@
 {
   "businessDate": "2026-09-30",
   "businessDateLabel": "WEDNESDAY, SEPTEMBER 30",
-  "generatedAt": "2026-09-30T16:45:50Z",
+  "generatedAt": "2026-09-30T18:33:54Z",
   "timeZone": "America/Phoenix",
   "stations": [
     {
@@ -9,14 +9,14 @@
       "name": "Hayes",
       "shortName": "HY",
       "unit": "LF",
-      "current": 0.0,
+      "current": 466.5,
       "goal": 435.25,
-      "canProduce": 2686.5,
-      "remaining": 435.25,
-      "completedJobs": 0,
-      "goalJobs": 3,
-      "topOperator": "-",
-      "topOperatorQuantity": 0
+      "canProduce": 3963.3334000000004,
+      "remaining": 0,
+      "completedJobs": 2,
+      "goalJobs": 5,
+      "topOperator": "Lee Rosenberg",
+      "topOperatorQuantity": 466.5
     },
     {
       "id": "snaplock",
@@ -37,37 +37,37 @@
       "name": "Bend",
       "shortName": "BD",
       "unit": "PCS",
-      "current": 64.0,
+      "current": 123.0,
       "goal": 364.0,
-      "canProduce": 697.0,
-      "remaining": 300.0,
-      "completedJobs": 8,
-      "goalJobs": 29,
+      "canProduce": 804.0,
+      "remaining": 241.0,
+      "completedJobs": 15,
+      "goalJobs": 35,
       "topOperator": "Justin A",
-      "topOperatorQuantity": 64.0
+      "topOperatorQuantity": 117.0
     },
     {
       "id": "pull-shear",
       "name": "Pull Pallets / Shear",
       "shortName": "PS",
       "unit": "PCS",
-      "current": 28.0,
+      "current": 128.0,
       "goal": 185.0,
-      "canProduce": 499.0,
-      "remaining": 157.0,
-      "completedJobs": 5,
-      "goalJobs": 24,
+      "canProduce": 606.0,
+      "remaining": 57.0,
+      "completedJobs": 19,
+      "goalJobs": 37,
       "topOperator": "Justin A",
-      "topOperatorQuantity": 28.0
+      "topOperatorQuantity": 122.0
     }
   ],
   "summary": {
-    "current": 173.25,
+    "current": 798.75,
     "goal": 984.25,
-    "canProduce": 3963.75,
-    "remaining": 892.25,
-    "completedJobs": 14,
-    "goalJobs": 57,
-    "createdOrders": 5
+    "canProduce": 5454.5834,
+    "remaining": 298.0,
+    "completedJobs": 37,
+    "goalJobs": 78,
+    "createdOrders": 13
   }
 }
