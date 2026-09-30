@@ -1,7 +1,7 @@
 {
   "businessDate": "2026-09-30",
   "businessDateLabel": "WEDNESDAY, SEPTEMBER 30",
-  "generatedAt": "2026-09-30T22:36:34Z",
+  "generatedAt": "2026-09-30T22:59:07Z",
   "timeZone": "America/Phoenix",
   "stations": [
     {
@@ -37,14 +37,14 @@
       "name": "Bend",
       "shortName": "BD",
       "unit": "PCS",
-      "current": 244.0,
+      "current": 279.0,
       "goal": 364.0,
       "canProduce": 998.0,
-      "remaining": 120.0,
-      "completedJobs": 29,
-      "goalJobs": 46,
+      "remaining": 85.0,
+      "completedJobs": 30,
+      "goalJobs": 47,
       "topOperator": "Justin A",
-      "topOperatorQuantity": 238.0
+      "topOperatorQuantity": 273.0
     },
     {
       "id": "pull-shear",
@@ -62,12 +62,12 @@
     }
   ],
   "summary": {
-    "current": 2518.7501,
+    "current": 2553.7501,
     "goal": 984.25,
     "canProduce": 9237.500100000001,
-    "remaining": 120.0,
-    "completedJobs": 67,
-    "goalJobs": 102,
+    "remaining": 85.0,
+    "completedJobs": 68,
+    "goalJobs": 103,
     "createdOrders": 21
   }
 }
