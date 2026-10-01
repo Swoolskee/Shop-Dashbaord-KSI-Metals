@@ -1,7 +1,7 @@
 {
   "businessDate": "2026-10-01",
   "businessDateLabel": "THURSDAY, OCTOBER 1",
-  "generatedAt": "2026-10-01T18:53:43Z",
+  "generatedAt": "2026-10-01T19:01:23Z",
   "timeZone": "America/Phoenix",
   "stations": [
     {
@@ -9,12 +9,12 @@
       "name": "Hayes",
       "shortName": "HY",
       "unit": "LF",
-      "current": 44.0,
+      "current": 65.0,
       "goal": 435.25,
-      "canProduce": 3673.1666999999998,
-      "remaining": 391.25,
-      "completedJobs": 2,
-      "goalJobs": 5,
+      "canProduce": 3694.1666999999998,
+      "remaining": 370.25,
+      "completedJobs": 3,
+      "goalJobs": 6,
       "topOperator": "Xzavier",
       "topOperatorQuantity": 44.0
     },
@@ -51,23 +51,23 @@
       "name": "Pull Pallets / Shear",
       "shortName": "PS",
       "unit": "PCS",
-      "current": 108.0,
+      "current": 131.0,
       "goal": 217.0,
       "canProduce": 633.0,
-      "remaining": 109.0,
-      "completedJobs": 17,
-      "goalJobs": 33,
+      "remaining": 86.0,
+      "completedJobs": 20,
+      "goalJobs": 36,
       "topOperator": "Justin A",
-      "topOperatorQuantity": 108.0
+      "topOperatorQuantity": 131.0
     }
   ],
   "summary": {
-    "current": 276.0,
+    "current": 320.0,
     "goal": 1005.25,
-    "canProduce": 8054.4167,
-    "remaining": 729.25,
-    "completedJobs": 38,
-    "goalJobs": 75,
+    "canProduce": 8075.4167,
+    "remaining": 685.25,
+    "completedJobs": 42,
+    "goalJobs": 79,
     "createdOrders": 18
   }
 }
