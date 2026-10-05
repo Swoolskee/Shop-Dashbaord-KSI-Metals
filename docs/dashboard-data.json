@@ -1,7 +1,7 @@
 {
   "businessDate": "2026-10-05",
   "businessDateLabel": "MONDAY, OCTOBER 5",
-  "generatedAt": "2026-10-05T20:54:55Z",
+  "generatedAt": "2026-10-05T21:14:00Z",
   "timeZone": "America/Phoenix",
   "stations": [
     {
@@ -9,14 +9,14 @@
       "name": "Hayes",
       "shortName": "HY",
       "unit": "LF",
-      "current": 147.0,
+      "current": 364.5,
       "goal": 435.25,
       "canProduce": 3142.6678,
-      "remaining": 288.25,
-      "completedJobs": 3,
-      "goalJobs": 6,
+      "remaining": 70.75,
+      "completedJobs": 4,
+      "goalJobs": 7,
       "topOperator": "John Wrasse",
-      "topOperatorQuantity": 147.0
+      "topOperatorQuantity": 255.75
     },
     {
       "id": "snaplock",
@@ -37,37 +37,37 @@
       "name": "Bend",
       "shortName": "BD",
       "unit": "PCS",
-      "current": 125.0,
+      "current": 142.0,
       "goal": 290.0,
       "canProduce": 571.0,
-      "remaining": 165.0,
-      "completedJobs": 24,
-      "goalJobs": 42,
+      "remaining": 148.0,
+      "completedJobs": 25,
+      "goalJobs": 43,
       "topOperator": "Justin A",
-      "topOperatorQuantity": 125.0
+      "topOperatorQuantity": 142.0
     },
     {
       "id": "pull-shear",
       "name": "Pull Pallets / Shear",
       "shortName": "PS",
       "unit": "PCS",
-      "current": 233.0,
+      "current": 250.0,
       "goal": 139.0,
       "canProduce": 409.0,
       "remaining": 0,
-      "completedJobs": 31,
-      "goalJobs": 45,
+      "completedJobs": 32,
+      "goalJobs": 46,
       "topOperator": "Xzavier",
-      "topOperatorQuantity": 139.0
+      "topOperatorQuantity": 156.0
     }
   ],
   "summary": {
-    "current": 2293.25,
+    "current": 2544.75,
     "goal": 864.25,
     "canProduce": 5910.9178,
-    "remaining": 453.25,
-    "completedJobs": 59,
-    "goalJobs": 94,
+    "remaining": 218.75,
+    "completedJobs": 62,
+    "goalJobs": 97,
     "createdOrders": 11
   }
 }
