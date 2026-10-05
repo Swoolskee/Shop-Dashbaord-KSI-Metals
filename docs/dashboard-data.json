@@ -1,7 +1,7 @@
 {
   "businessDate": "2026-10-05",
   "businessDateLabel": "MONDAY, OCTOBER 5",
-  "generatedAt": "2026-10-05T15:47:18Z",
+  "generatedAt": "2026-10-05T16:45:52Z",
   "timeZone": "America/Phoenix",
   "stations": [
     {
@@ -23,28 +23,28 @@
       "name": "Snaplock",
       "shortName": "SN",
       "unit": "LF",
-      "current": 0.0,
+      "current": 1788.25,
       "goal": 0.0,
       "canProduce": 1788.25,
-      "remaining": 0.0,
-      "completedJobs": 0,
-      "goalJobs": 0,
-      "topOperator": "-",
-      "topOperatorQuantity": 0
+      "remaining": 0,
+      "completedJobs": 1,
+      "goalJobs": 1,
+      "topOperator": "Lee Rosenberg",
+      "topOperatorQuantity": 1788.25
     },
     {
       "id": "bend",
       "name": "Bend",
       "shortName": "BD",
       "unit": "PCS",
-      "current": 54.0,
+      "current": 62.0,
       "goal": 290.0,
-      "canProduce": 540.0,
-      "remaining": 236.0,
-      "completedJobs": 10,
-      "goalJobs": 32,
+      "canProduce": 548.0,
+      "remaining": 228.0,
+      "completedJobs": 11,
+      "goalJobs": 33,
       "topOperator": "Justin A",
-      "topOperatorQuantity": 54.0
+      "topOperatorQuantity": 62.0
     },
     {
       "id": "pull-shear",
@@ -53,7 +53,7 @@
       "unit": "PCS",
       "current": 110.0,
       "goal": 139.0,
-      "canProduce": 378.0,
+      "canProduce": 386.0,
       "remaining": 29.0,
       "completedJobs": 18,
       "goalJobs": 36,
@@ -62,12 +62,12 @@
     }
   ],
   "summary": {
-    "current": 164.0,
+    "current": 1960.25,
     "goal": 864.25,
-    "canProduce": 5701.9178,
-    "remaining": 700.25,
-    "completedJobs": 28,
-    "goalJobs": 71,
-    "createdOrders": 4
+    "canProduce": 5717.9178,
+    "remaining": 692.25,
+    "completedJobs": 30,
+    "goalJobs": 73,
+    "createdOrders": 6
   }
 }
