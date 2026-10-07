@@ -1,7 +1,7 @@
 {
   "businessDate": "2026-10-07",
   "businessDateLabel": "WEDNESDAY, OCTOBER 7",
-  "generatedAt": "2026-10-07T21:43:57Z",
+  "generatedAt": "2026-10-07T22:49:52Z",
   "timeZone": "America/Phoenix",
   "stations": [
     {
@@ -9,14 +9,14 @@
       "name": "Hayes",
       "shortName": "HY",
       "unit": "LF",
-      "current": 1829.5844,
+      "current": 2464.7511,
       "goal": 1304.5011,
       "canProduce": 3209.3341,
       "remaining": 0,
-      "completedJobs": 4,
-      "goalJobs": 7,
+      "completedJobs": 7,
+      "goalJobs": 10,
       "topOperator": "Lee Rosenberg",
-      "topOperatorQuantity": 1829.5844
+      "topOperatorQuantity": 2464.7511
     },
     {
       "id": "snaplock",
@@ -37,37 +37,37 @@
       "name": "Bend",
       "shortName": "BD",
       "unit": "PCS",
-      "current": 151.0,
+      "current": 182.0,
       "goal": 283.0,
-      "canProduce": 527.0,
-      "remaining": 132.0,
-      "completedJobs": 23,
-      "goalJobs": 42,
+      "canProduce": 530.0,
+      "remaining": 101.0,
+      "completedJobs": 28,
+      "goalJobs": 47,
       "topOperator": "Justin A",
-      "topOperatorQuantity": 151.0
+      "topOperatorQuantity": 182.0
     },
     {
       "id": "pull-shear",
       "name": "Pull Pallets / Shear",
       "shortName": "PS",
       "unit": "PCS",
-      "current": 128.0,
+      "current": 159.0,
       "goal": 111.0,
-      "canProduce": 312.0,
+      "canProduce": 315.0,
       "remaining": 0,
-      "completedJobs": 17,
-      "goalJobs": 31,
+      "completedJobs": 22,
+      "goalJobs": 36,
       "topOperator": "Justin A",
-      "topOperatorQuantity": 128.0
+      "topOperatorQuantity": 159.0
     }
   ],
   "summary": {
-    "current": 2437.9174,
+    "current": 3135.0841,
     "goal": 1698.5011,
-    "canProduce": 4471.2504,
-    "remaining": 132.0,
-    "completedJobs": 45,
-    "goalJobs": 81,
-    "createdOrders": 18
+    "canProduce": 4477.2504,
+    "remaining": 101.0,
+    "completedJobs": 58,
+    "goalJobs": 94,
+    "createdOrders": 19
   }
 }
