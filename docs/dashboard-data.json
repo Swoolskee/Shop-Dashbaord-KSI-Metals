@@ -1,7 +1,7 @@
 {
   "businessDate": "2026-10-07",
   "businessDateLabel": "WEDNESDAY, OCTOBER 7",
-  "generatedAt": "2026-10-07T14:47:15Z",
+  "generatedAt": "2026-10-07T17:48:11Z",
   "timeZone": "America/Phoenix",
   "stations": [
     {
@@ -9,65 +9,65 @@
       "name": "Hayes",
       "shortName": "HY",
       "unit": "LF",
-      "current": 0.0,
+      "current": 869.2511,
       "goal": 1304.5011,
-      "canProduce": 2885.0011,
-      "remaining": 1304.5011,
-      "completedJobs": 0,
+      "canProduce": 2991.3340999999996,
+      "remaining": 435.25,
+      "completedJobs": 1,
       "goalJobs": 4,
-      "topOperator": "-",
-      "topOperatorQuantity": 0
+      "topOperator": "Lee Rosenberg",
+      "topOperatorQuantity": 869.2511
     },
     {
       "id": "snaplock",
       "name": "Snaplock",
       "shortName": "SN",
       "unit": "LF",
-      "current": 0.0,
+      "current": 329.333,
       "goal": 0.0,
-      "canProduce": 397.333,
-      "remaining": 0.0,
-      "completedJobs": 0,
-      "goalJobs": 0,
-      "topOperator": "-",
-      "topOperatorQuantity": 0
+      "canProduce": 422.91630000000004,
+      "remaining": 0,
+      "completedJobs": 1,
+      "goalJobs": 1,
+      "topOperator": "Lee Rosenberg",
+      "topOperatorQuantity": 329.333
     },
     {
       "id": "bend",
       "name": "Bend",
       "shortName": "BD",
       "unit": "PCS",
-      "current": 37.0,
+      "current": 69.0,
       "goal": 283.0,
-      "canProduce": 412.0,
-      "remaining": 246.0,
-      "completedJobs": 3,
-      "goalJobs": 22,
+      "canProduce": 436.0,
+      "remaining": 214.0,
+      "completedJobs": 8,
+      "goalJobs": 27,
       "topOperator": "Justin A",
-      "topOperatorQuantity": 37.0
+      "topOperatorQuantity": 69.0
     },
     {
       "id": "pull-shear",
       "name": "Pull Pallets / Shear",
       "shortName": "PS",
       "unit": "PCS",
-      "current": 37.0,
+      "current": 78.0,
       "goal": 111.0,
-      "canProduce": 221.0,
-      "remaining": 74.0,
-      "completedJobs": 3,
-      "goalJobs": 17,
+      "canProduce": 245.0,
+      "remaining": 33.0,
+      "completedJobs": 11,
+      "goalJobs": 25,
       "topOperator": "Justin A",
-      "topOperatorQuantity": 37.0
+      "topOperatorQuantity": 78.0
     }
   ],
   "summary": {
-    "current": 74.0,
+    "current": 1345.5841,
     "goal": 1698.5011,
-    "canProduce": 3915.3341,
-    "remaining": 1624.5011,
-    "completedJobs": 6,
-    "goalJobs": 43,
-    "createdOrders": 1
+    "canProduce": 4095.2503999999994,
+    "remaining": 682.25,
+    "completedJobs": 21,
+    "goalJobs": 57,
+    "createdOrders": 9
   }
 }
