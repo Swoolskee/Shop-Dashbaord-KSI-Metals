@@ -1,7 +1,7 @@
 {
   "businessDate": "2026-10-08",
   "businessDateLabel": "THURSDAY, OCTOBER 8",
-  "generatedAt": "2026-10-08T22:48:02Z",
+  "generatedAt": "2026-10-08T23:56:41Z",
   "timeZone": "America/Phoenix",
   "stations": [
     {
@@ -9,14 +9,14 @@
       "name": "Hayes",
       "shortName": "HY",
       "unit": "LF",
-      "current": 280.08299999999997,
+      "current": 402.58299999999997,
       "goal": 435.25,
       "canProduce": 877.833,
-      "remaining": 155.16700000000003,
-      "completedJobs": 4,
-      "goalJobs": 7,
+      "remaining": 32.66700000000003,
+      "completedJobs": 5,
+      "goalJobs": 8,
       "topOperator": "Lee Rosenberg",
-      "topOperatorQuantity": 280.08299999999997
+      "topOperatorQuantity": 402.58299999999997
     },
     {
       "id": "snaplock",
@@ -62,12 +62,12 @@
     }
   ],
   "summary": {
-    "current": 785.6663,
+    "current": 908.1663,
     "goal": 829.25,
     "canProduce": 1861.4162999999999,
-    "remaining": 260.16700000000003,
-    "completedJobs": 50,
-    "goalJobs": 88,
+    "remaining": 137.66700000000003,
+    "completedJobs": 51,
+    "goalJobs": 89,
     "createdOrders": 11
   }
 }
