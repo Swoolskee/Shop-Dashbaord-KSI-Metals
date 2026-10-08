@@ -1,7 +1,7 @@
 {
   "businessDate": "2026-10-08",
   "businessDateLabel": "THURSDAY, OCTOBER 8",
-  "generatedAt": "2026-10-08T19:50:19Z",
+  "generatedAt": "2026-10-08T20:46:22Z",
   "timeZone": "America/Phoenix",
   "stations": [
     {
@@ -9,42 +9,42 @@
       "name": "Hayes",
       "shortName": "HY",
       "unit": "LF",
-      "current": 118.0,
+      "current": 163.0,
       "goal": 435.25,
       "canProduce": 877.833,
-      "remaining": 317.25,
-      "completedJobs": 1,
-      "goalJobs": 4,
+      "remaining": 272.25,
+      "completedJobs": 2,
+      "goalJobs": 5,
       "topOperator": "Lee Rosenberg",
-      "topOperatorQuantity": 118.0
+      "topOperatorQuantity": 163.0
     },
     {
       "id": "snaplock",
       "name": "Snaplock",
       "shortName": "SN",
       "unit": "LF",
-      "current": 104.0,
+      "current": 129.5833,
       "goal": 0.0,
       "canProduce": 197.5833,
       "remaining": 0,
-      "completedJobs": 1,
-      "goalJobs": 1,
+      "completedJobs": 2,
+      "goalJobs": 2,
       "topOperator": "Lee Rosenberg",
-      "topOperatorQuantity": 104.0
+      "topOperatorQuantity": 129.5833
     },
     {
       "id": "bend",
       "name": "Bend",
       "shortName": "BD",
       "unit": "PCS",
-      "current": 140.0,
+      "current": 152.0,
       "goal": 293.0,
       "canProduce": 489.0,
-      "remaining": 153.0,
-      "completedJobs": 17,
-      "goalJobs": 37,
+      "remaining": 141.0,
+      "completedJobs": 21,
+      "goalJobs": 41,
       "topOperator": "Justin A",
-      "topOperatorQuantity": 140.0
+      "topOperatorQuantity": 152.0
     },
     {
       "id": "pull-shear",
@@ -62,12 +62,12 @@
     }
   ],
   "summary": {
-    "current": 550.0,
+    "current": 632.5833,
     "goal": 829.25,
     "canProduce": 1861.4162999999999,
-    "remaining": 470.25,
-    "completedJobs": 41,
-    "goalJobs": 79,
-    "createdOrders": 11
+    "remaining": 413.25,
+    "completedJobs": 47,
+    "goalJobs": 85,
+    "createdOrders": 12
   }
 }
