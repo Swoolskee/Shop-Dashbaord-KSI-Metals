@@ -1,7 +1,7 @@
 {
   "businessDate": "2026-10-08",
   "businessDateLabel": "THURSDAY, OCTOBER 8",
-  "generatedAt": "2026-10-08T19:25:25Z",
+  "generatedAt": "2026-10-08T19:50:19Z",
   "timeZone": "America/Phoenix",
   "stations": [
     {
@@ -39,7 +39,7 @@
       "unit": "PCS",
       "current": 140.0,
       "goal": 293.0,
-      "canProduce": 484.0,
+      "canProduce": 489.0,
       "remaining": 153.0,
       "completedJobs": 17,
       "goalJobs": 37,
@@ -51,23 +51,23 @@
       "name": "Pull Pallets / Shear",
       "shortName": "PS",
       "unit": "PCS",
-      "current": 140.0,
+      "current": 188.0,
       "goal": 101.0,
-      "canProduce": 292.0,
+      "canProduce": 297.0,
       "remaining": 0,
-      "completedJobs": 17,
-      "goalJobs": 32,
+      "completedJobs": 22,
+      "goalJobs": 37,
       "topOperator": "Justin A",
-      "topOperatorQuantity": 140.0
+      "topOperatorQuantity": 188.0
     }
   ],
   "summary": {
-    "current": 502.0,
+    "current": 550.0,
     "goal": 829.25,
-    "canProduce": 1851.4162999999999,
+    "canProduce": 1861.4162999999999,
     "remaining": 470.25,
-    "completedJobs": 36,
-    "goalJobs": 74,
-    "createdOrders": 9
+    "completedJobs": 41,
+    "goalJobs": 79,
+    "createdOrders": 11
   }
 }
