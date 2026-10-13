@@ -1,7 +1,7 @@
 {
   "businessDate": "2026-10-13",
   "businessDateLabel": "TUESDAY, OCTOBER 13",
-  "generatedAt": "2026-10-13T14:45:47Z",
+  "generatedAt": "2026-10-13T16:47:07Z",
   "timeZone": "America/Phoenix",
   "stations": [
     {
@@ -9,42 +9,42 @@
       "name": "Hayes",
       "shortName": "HY",
       "unit": "LF",
-      "current": 50.0,
+      "current": 110.0,
       "goal": 485.25,
-      "canProduce": 4493.249600000001,
-      "remaining": 435.25,
-      "completedJobs": 1,
-      "goalJobs": 4,
+      "canProduce": 4553.249600000001,
+      "remaining": 375.25,
+      "completedJobs": 2,
+      "goalJobs": 5,
       "topOperator": "John Wrasse",
-      "topOperatorQuantity": 50.0
+      "topOperatorQuantity": 110.0
     },
     {
       "id": "snaplock",
       "name": "Snaplock",
       "shortName": "SN",
       "unit": "LF",
-      "current": 0.0,
+      "current": 324.0,
       "goal": 0.0,
       "canProduce": 2918.5,
-      "remaining": 0.0,
-      "completedJobs": 0,
-      "goalJobs": 0,
-      "topOperator": "-",
-      "topOperatorQuantity": 0
+      "remaining": 0,
+      "completedJobs": 1,
+      "goalJobs": 1,
+      "topOperator": "Lee Rosenberg",
+      "topOperatorQuantity": 324.0
     },
     {
       "id": "bend",
       "name": "Bend",
       "shortName": "BD",
       "unit": "PCS",
-      "current": 23.0,
+      "current": 46.0,
       "goal": 283.0,
-      "canProduce": 1931.0,
-      "remaining": 260.0,
-      "completedJobs": 5,
-      "goalJobs": 23,
+      "canProduce": 2090.0,
+      "remaining": 237.0,
+      "completedJobs": 10,
+      "goalJobs": 28,
       "topOperator": "Justin A",
-      "topOperatorQuantity": 23.0
+      "topOperatorQuantity": 46.0
     },
     {
       "id": "pull-shear",
@@ -53,7 +53,7 @@
       "unit": "PCS",
       "current": 21.0,
       "goal": 89.0,
-      "canProduce": 1714.0,
+      "canProduce": 1873.0,
       "remaining": 68.0,
       "completedJobs": 4,
       "goalJobs": 17,
@@ -62,12 +62,12 @@
     }
   ],
   "summary": {
-    "current": 94.0,
+    "current": 501.0,
     "goal": 857.25,
-    "canProduce": 11056.749600000001,
-    "remaining": 763.25,
-    "completedJobs": 10,
-    "goalJobs": 44,
-    "createdOrders": 2
+    "canProduce": 11434.749600000001,
+    "remaining": 680.25,
+    "completedJobs": 17,
+    "goalJobs": 51,
+    "createdOrders": 8
   }
 }
