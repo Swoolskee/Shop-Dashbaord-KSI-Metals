@@ -1,7 +1,7 @@
 {
   "businessDate": "2026-10-19",
   "businessDateLabel": "MONDAY, OCTOBER 19",
-  "generatedAt": "2026-10-19T19:46:53Z",
+  "generatedAt": "2026-10-19T23:04:28Z",
   "timeZone": "America/Phoenix",
   "stations": [
     {
@@ -11,7 +11,7 @@
       "unit": "LF",
       "current": 3677.0001,
       "goal": 700.25,
-      "canProduce": 4377.2501,
+      "canProduce": 6008.2501,
       "remaining": 0,
       "completedJobs": 2,
       "goalJobs": 6,
@@ -25,7 +25,7 @@
       "unit": "LF",
       "current": 0.0,
       "goal": 0.0,
-      "canProduce": 2692.0002999999997,
+      "canProduce": 3129.0002999999997,
       "remaining": 0.0,
       "completedJobs": 0,
       "goalJobs": 0,
@@ -37,37 +37,37 @@
       "name": "Bend",
       "shortName": "BD",
       "unit": "PCS",
-      "current": 110.0,
+      "current": 259.0,
       "goal": 394.0,
-      "canProduce": 699.0,
-      "remaining": 284.0,
-      "completedJobs": 13,
-      "goalJobs": 34,
+      "canProduce": 842.0,
+      "remaining": 135.0,
+      "completedJobs": 27,
+      "goalJobs": 45,
       "topOperator": "Justin A",
-      "topOperatorQuantity": 110.0
+      "topOperatorQuantity": 259.0
     },
     {
       "id": "pull-shear",
       "name": "Pull Pallets / Shear",
       "shortName": "PS",
       "unit": "PCS",
-      "current": 156.0,
+      "current": 380.0,
       "goal": 213.0,
-      "canProduce": 518.0,
-      "remaining": 57.0,
-      "completedJobs": 23,
-      "goalJobs": 40,
+      "canProduce": 661.0,
+      "remaining": 0,
+      "completedJobs": 44,
+      "goalJobs": 58,
       "topOperator": "Justin A",
-      "topOperatorQuantity": 122.0
+      "topOperatorQuantity": 228.0
     }
   ],
   "summary": {
-    "current": 3943.0001,
+    "current": 4316.0001,
     "goal": 1307.25,
-    "canProduce": 8286.2504,
-    "remaining": 341.0,
-    "completedJobs": 38,
-    "goalJobs": 80,
-    "createdOrders": 14
+    "canProduce": 10640.2504,
+    "remaining": 135.0,
+    "completedJobs": 73,
+    "goalJobs": 109,
+    "createdOrders": 22
   }
 }
