@@ -1,7 +1,7 @@
 {
   "businessDate": "2026-10-20",
   "businessDateLabel": "TUESDAY, OCTOBER 20",
-  "generatedAt": "2026-10-20T18:06:21Z",
+  "generatedAt": "2026-10-20T18:48:54Z",
   "timeZone": "America/Phoenix",
   "stations": [
     {
@@ -9,14 +9,14 @@
       "name": "Hayes",
       "shortName": "HY",
       "unit": "LF",
-      "current": 399.0,
+      "current": 2221.9166,
       "goal": 700.25,
       "canProduce": 2959.4999,
-      "remaining": 301.25,
-      "completedJobs": 1,
-      "goalJobs": 5,
+      "remaining": 0,
+      "completedJobs": 3,
+      "goalJobs": 7,
       "topOperator": "Lee Rosenberg",
-      "topOperatorQuantity": 399.0
+      "topOperatorQuantity": 2221.9166
     },
     {
       "id": "snaplock",
@@ -37,37 +37,37 @@
       "name": "Bend",
       "shortName": "BD",
       "unit": "PCS",
-      "current": 69.0,
+      "current": 92.0,
       "goal": 292.0,
-      "canProduce": 913.0,
-      "remaining": 223.0,
-      "completedJobs": 7,
-      "goalJobs": 30,
+      "canProduce": 956.0,
+      "remaining": 200.0,
+      "completedJobs": 10,
+      "goalJobs": 33,
       "topOperator": "Justin A",
-      "topOperatorQuantity": 69.0
+      "topOperatorQuantity": 92.0
     },
     {
       "id": "pull-shear",
       "name": "Pull Pallets / Shear",
       "shortName": "PS",
       "unit": "PCS",
-      "current": 273.0,
+      "current": 309.0,
       "goal": 102.0,
-      "canProduce": 560.0,
+      "canProduce": 603.0,
       "remaining": 0,
-      "completedJobs": 21,
-      "goalJobs": 35,
+      "completedJobs": 28,
+      "goalJobs": 42,
       "topOperator": "Isaiah Evans",
-      "topOperatorQuantity": 273.0
+      "topOperatorQuantity": 278.0
     }
   ],
   "summary": {
-    "current": 1325.417,
+    "current": 3207.3336,
     "goal": 1094.25,
-    "canProduce": 10135.0002,
-    "remaining": 524.25,
-    "completedJobs": 33,
-    "goalJobs": 74,
-    "createdOrders": 4
+    "canProduce": 10221.0002,
+    "remaining": 200.0,
+    "completedJobs": 45,
+    "goalJobs": 86,
+    "createdOrders": 6
   }
 }
