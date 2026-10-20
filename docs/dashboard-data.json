@@ -1,7 +1,7 @@
 {
   "businessDate": "2026-10-20",
   "businessDateLabel": "TUESDAY, OCTOBER 20",
-  "generatedAt": "2026-10-20T16:47:23Z",
+  "generatedAt": "2026-10-20T17:52:50Z",
   "timeZone": "America/Phoenix",
   "stations": [
     {
@@ -23,14 +23,14 @@
       "name": "Snaplock",
       "shortName": "SN",
       "unit": "LF",
-      "current": 453.75,
+      "current": 584.417,
       "goal": 0.0,
-      "canProduce": 5702.5003,
+      "canProduce": 5702.500300000001,
       "remaining": 0,
-      "completedJobs": 3,
-      "goalJobs": 3,
+      "completedJobs": 4,
+      "goalJobs": 4,
       "topOperator": "Lee Rosenberg",
-      "topOperatorQuantity": 453.75
+      "topOperatorQuantity": 584.417
     },
     {
       "id": "bend",
@@ -51,23 +51,23 @@
       "name": "Pull Pallets / Shear",
       "shortName": "PS",
       "unit": "PCS",
-      "current": 233.0,
+      "current": 271.0,
       "goal": 102.0,
       "canProduce": 560.0,
       "remaining": 0,
-      "completedJobs": 18,
-      "goalJobs": 32,
+      "completedJobs": 20,
+      "goalJobs": 34,
       "topOperator": "Isaiah Evans",
-      "topOperatorQuantity": 233.0
+      "topOperatorQuantity": 271.0
     }
   ],
   "summary": {
-    "current": 755.75,
+    "current": 924.417,
     "goal": 1094.25,
-    "canProduce": 10135.000199999999,
+    "canProduce": 10135.0002,
     "remaining": 923.25,
-    "completedJobs": 28,
-    "goalJobs": 69,
+    "completedJobs": 31,
+    "goalJobs": 72,
     "createdOrders": 4
   }
 }
