@@ -1,7 +1,7 @@
 {
   "businessDate": "2026-10-21",
   "businessDateLabel": "WEDNESDAY, OCTOBER 21",
-  "generatedAt": "2026-10-21T18:52:09Z",
+  "generatedAt": "2026-10-21T21:58:31Z",
   "timeZone": "America/Phoenix",
   "stations": [
     {
@@ -11,7 +11,7 @@
       "unit": "LF",
       "current": 147.333,
       "goal": 740.25,
-      "canProduce": 1224.9997,
+      "canProduce": 2528.7494,
       "remaining": 592.917,
       "completedJobs": 3,
       "goalJobs": 7,
@@ -23,51 +23,51 @@
       "name": "Snaplock",
       "shortName": "SN",
       "unit": "LF",
-      "current": 2141.5833,
+      "current": 3115.6665999999996,
       "goal": 0.0,
-      "canProduce": 7148.749959999999,
+      "canProduce": 9025.08326,
       "remaining": 0,
-      "completedJobs": 1,
-      "goalJobs": 1,
+      "completedJobs": 2,
+      "goalJobs": 2,
       "topOperator": "Lee Rosenberg",
-      "topOperatorQuantity": 2141.5833
+      "topOperatorQuantity": 3115.6665999999996
     },
     {
       "id": "bend",
       "name": "Bend",
       "shortName": "BD",
       "unit": "PCS",
-      "current": 131.0,
+      "current": 240.0,
       "goal": 307.0,
-      "canProduce": 964.0,
-      "remaining": 176.0,
-      "completedJobs": 11,
-      "goalJobs": 33,
+      "canProduce": 1279.0,
+      "remaining": 67.0,
+      "completedJobs": 23,
+      "goalJobs": 41,
       "topOperator": "Justin A",
-      "topOperatorQuantity": 131.0
+      "topOperatorQuantity": 240.0
     },
     {
       "id": "pull-shear",
       "name": "Pull Pallets / Shear",
       "shortName": "PS",
       "unit": "PCS",
-      "current": 132.0,
+      "current": 166.0,
       "goal": 134.0,
-      "canProduce": 479.0,
-      "remaining": 2.0,
-      "completedJobs": 11,
-      "goalJobs": 25,
-      "topOperator": "Isaiah Evans",
-      "topOperatorQuantity": 66.0
+      "canProduce": 794.0,
+      "remaining": 0,
+      "completedJobs": 13,
+      "goalJobs": 27,
+      "topOperator": "Justin A",
+      "topOperatorQuantity": 96.0
     }
   ],
   "summary": {
-    "current": 2551.9163,
+    "current": 3668.9995999999996,
     "goal": 1181.25,
-    "canProduce": 9816.74966,
-    "remaining": 770.917,
-    "completedJobs": 26,
-    "goalJobs": 66,
-    "createdOrders": 6
+    "canProduce": 13626.83266,
+    "remaining": 659.917,
+    "completedJobs": 41,
+    "goalJobs": 77,
+    "createdOrders": 15
   }
 }
