@@ -1,7 +1,7 @@
 {
   "businessDate": "2026-10-22",
   "businessDateLabel": "THURSDAY, OCTOBER 22",
-  "generatedAt": "2026-10-22T17:49:04Z",
+  "generatedAt": "2026-10-22T18:09:47Z",
   "timeZone": "America/Phoenix",
   "stations": [
     {
@@ -68,6 +68,6 @@
     "remaining": 520.25,
     "completedJobs": 23,
     "goalJobs": 63,
-    "createdOrders": 8
+    "createdOrders": 9
   }
 }
