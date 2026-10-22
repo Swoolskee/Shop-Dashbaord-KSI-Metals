@@ -1,7 +1,7 @@
 {
   "businessDate": "2026-10-22",
   "businessDateLabel": "THURSDAY, OCTOBER 22",
-  "generatedAt": "2026-10-22T21:47:24Z",
+  "generatedAt": "2026-10-22T21:55:03Z",
   "timeZone": "America/Phoenix",
   "stations": [
     {
@@ -11,7 +11,7 @@
       "unit": "LF",
       "current": 1197.2167,
       "goal": 700.25,
-      "canProduce": 2959.8831,
+      "canProduce": 3262.3831,
       "remaining": 0,
       "completedJobs": 4,
       "goalJobs": 8,
@@ -23,14 +23,14 @@
       "name": "Snaplock",
       "shortName": "SN",
       "unit": "LF",
-      "current": 403.0,
+      "current": 499.3333,
       "goal": 0.0,
       "canProduce": 8167.583259999999,
       "remaining": 0,
-      "completedJobs": 1,
-      "goalJobs": 1,
+      "completedJobs": 2,
+      "goalJobs": 2,
       "topOperator": "Lee Rosenberg",
-      "topOperatorQuantity": 403.0
+      "topOperatorQuantity": 499.3333
     },
     {
       "id": "bend",
@@ -62,12 +62,12 @@
     }
   ],
   "summary": {
-    "current": 1750.2167,
+    "current": 1846.55,
     "goal": 1135.25,
-    "canProduce": 13145.466359999999,
+    "canProduce": 13447.966359999999,
     "remaining": 285.0,
-    "completedJobs": 30,
-    "goalJobs": 67,
-    "createdOrders": 15
+    "completedJobs": 31,
+    "goalJobs": 68,
+    "createdOrders": 16
   }
 }
