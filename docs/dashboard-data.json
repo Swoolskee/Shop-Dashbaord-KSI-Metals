@@ -1,7 +1,7 @@
 {
-  "businessDate": "2026-10-22",
-  "businessDateLabel": "THURSDAY, OCTOBER 22",
-  "generatedAt": "2026-10-23T00:55:38Z",
+  "businessDate": "2026-10-23",
+  "businessDateLabel": "FRIDAY, OCTOBER 23",
+  "generatedAt": "2026-10-23T13:50:42Z",
   "timeZone": "America/Phoenix",
   "stations": [
     {
@@ -9,65 +9,65 @@
       "name": "Hayes",
       "shortName": "HY",
       "unit": "LF",
-      "current": 1739.8834,
-      "goal": 700.25,
-      "canProduce": 3262.3831,
-      "remaining": 0,
-      "completedJobs": 5,
-      "goalJobs": 9,
-      "topOperator": "Lee Rosenberg",
-      "topOperatorQuantity": 1704.0834
+      "current": 0.0,
+      "goal": 1077.6667,
+      "canProduce": 1522.4996999999998,
+      "remaining": 1077.6667,
+      "completedJobs": 0,
+      "goalJobs": 5,
+      "topOperator": "-",
+      "topOperatorQuantity": 0
     },
     {
       "id": "snaplock",
       "name": "Snaplock",
       "shortName": "SN",
       "unit": "LF",
-      "current": 499.3333,
+      "current": 0.0,
       "goal": 0.0,
-      "canProduce": 8167.583259999999,
-      "remaining": 0,
-      "completedJobs": 2,
-      "goalJobs": 2,
-      "topOperator": "Lee Rosenberg",
-      "topOperatorQuantity": 499.3333
+      "canProduce": 7668.249959999999,
+      "remaining": 0.0,
+      "completedJobs": 0,
+      "goalJobs": 0,
+      "topOperator": "-",
+      "topOperatorQuantity": 0
     },
     {
       "id": "bend",
       "name": "Bend",
       "shortName": "BD",
       "unit": "PCS",
-      "current": 231.0,
-      "goal": 331.0,
-      "canProduce": 1205.0,
-      "remaining": 100.0,
-      "completedJobs": 24,
-      "goalJobs": 43,
+      "current": 11.0,
+      "goal": 298.0,
+      "canProduce": 974.0,
+      "remaining": 287.0,
+      "completedJobs": 3,
+      "goalJobs": 23,
       "topOperator": "Justin A",
-      "topOperatorQuantity": 231.0
+      "topOperatorQuantity": 11.0
     },
     {
       "id": "pull-shear",
       "name": "Pull Pallets / Shear",
       "shortName": "PS",
       "unit": "PCS",
-      "current": 192.0,
+      "current": 2.0,
       "goal": 104.0,
-      "canProduce": 813.0,
-      "remaining": 0,
-      "completedJobs": 21,
-      "goalJobs": 35,
+      "canProduce": 621.0,
+      "remaining": 102.0,
+      "completedJobs": 1,
+      "goalJobs": 15,
       "topOperator": "Justin A",
-      "topOperatorQuantity": 138.0
+      "topOperatorQuantity": 2.0
     }
   ],
   "summary": {
-    "current": 2662.2167,
-    "goal": 1135.25,
-    "canProduce": 13447.966359999999,
-    "remaining": 100.0,
-    "completedJobs": 52,
-    "goalJobs": 89,
-    "createdOrders": 17
+    "current": 13.0,
+    "goal": 1479.6667,
+    "canProduce": 10785.74966,
+    "remaining": 1466.6667,
+    "completedJobs": 4,
+    "goalJobs": 43,
+    "createdOrders": 0
   }
 }
