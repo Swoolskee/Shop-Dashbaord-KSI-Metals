@@ -1,7 +1,7 @@
 {
   "businessDate": "2026-10-26",
   "businessDateLabel": "MONDAY, OCTOBER 26",
-  "generatedAt": "2026-10-26T22:52:43Z",
+  "generatedAt": "2026-10-26T23:19:14Z",
   "timeZone": "America/Phoenix",
   "stations": [
     {
@@ -39,7 +39,7 @@
       "unit": "PCS",
       "current": 266.0,
       "goal": 269.0,
-      "canProduce": 1281.0,
+      "canProduce": 1288.0,
       "remaining": 3.0,
       "completedJobs": 28,
       "goalJobs": 47,
@@ -51,23 +51,23 @@
       "name": "Pull Pallets / Shear",
       "shortName": "PS",
       "unit": "PCS",
-      "current": 360.0,
+      "current": 382.0,
       "goal": 122.0,
-      "canProduce": 1013.0,
+      "canProduce": 1020.0,
       "remaining": 0,
-      "completedJobs": 39,
-      "goalJobs": 53,
+      "completedJobs": 43,
+      "goalJobs": 57,
       "topOperator": "Isaiah Evans",
-      "topOperatorQuantity": 300.0
+      "topOperatorQuantity": 322.0
     }
   ],
   "summary": {
-    "current": 3964.5829299999996,
+    "current": 3986.5829299999996,
     "goal": 1233.583,
-    "canProduce": 11116.16593,
+    "canProduce": 11130.16593,
     "remaining": 3.0,
-    "completedJobs": 75,
-    "goalJobs": 112,
-    "createdOrders": 22
+    "completedJobs": 79,
+    "goalJobs": 116,
+    "createdOrders": 23
   }
 }
