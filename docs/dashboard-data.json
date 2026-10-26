@@ -1,7 +1,7 @@
 {
   "businessDate": "2026-10-26",
   "businessDateLabel": "MONDAY, OCTOBER 26",
-  "generatedAt": "2026-10-26T18:13:25Z",
+  "generatedAt": "2026-10-26T19:32:35Z",
   "timeZone": "America/Phoenix",
   "stations": [
     {
@@ -9,14 +9,14 @@
       "name": "Hayes",
       "shortName": "HY",
       "unit": "LF",
-      "current": 298.58299999999997,
+      "current": 475.9163,
       "goal": 842.583,
       "canProduce": 1629.4993,
-      "remaining": 544.0,
-      "completedJobs": 2,
-      "goalJobs": 6,
+      "remaining": 366.6667,
+      "completedJobs": 3,
+      "goalJobs": 7,
       "topOperator": "Hayes",
-      "topOperatorQuantity": 156.25
+      "topOperatorQuantity": 333.5833
     },
     {
       "id": "snaplock",
@@ -51,23 +51,23 @@
       "name": "Pull Pallets / Shear",
       "shortName": "PS",
       "unit": "PCS",
-      "current": 260.0,
+      "current": 277.0,
       "goal": 122.0,
       "canProduce": 720.0,
       "remaining": 0,
-      "completedJobs": 24,
-      "goalJobs": 38,
+      "completedJobs": 27,
+      "goalJobs": 41,
       "topOperator": "Isaiah Evans",
-      "topOperatorQuantity": 210.0
+      "topOperatorQuantity": 227.0
     }
   ],
   "summary": {
-    "current": 638.583,
+    "current": 832.9163,
     "goal": 1233.583,
     "canProduce": 8420.66593,
-    "remaining": 733.0,
-    "completedJobs": 42,
-    "goalJobs": 79,
+    "remaining": 555.6667,
+    "completedJobs": 46,
+    "goalJobs": 83,
     "createdOrders": 6
   }
 }
