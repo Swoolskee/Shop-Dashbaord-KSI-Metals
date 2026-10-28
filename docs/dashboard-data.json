@@ -1,7 +1,7 @@
 {
   "businessDate": "2026-10-28",
   "businessDateLabel": "WEDNESDAY, OCTOBER 28",
-  "generatedAt": "2026-10-28T18:49:21Z",
+  "generatedAt": "2026-10-28T19:05:50Z",
   "timeZone": "America/Phoenix",
   "stations": [
     {
@@ -9,14 +9,14 @@
       "name": "Hayes",
       "shortName": "HY",
       "unit": "LF",
-      "current": 102.0,
+      "current": 256.0,
       "goal": 700.25,
-      "canProduce": 3430.25,
-      "remaining": 598.25,
-      "completedJobs": 1,
-      "goalJobs": 5,
+      "canProduce": 3750.25,
+      "remaining": 444.25,
+      "completedJobs": 2,
+      "goalJobs": 6,
       "topOperator": "John Wrasse",
-      "topOperatorQuantity": 102.0
+      "topOperatorQuantity": 256.0
     },
     {
       "id": "snaplock",
@@ -39,7 +39,7 @@
       "unit": "PCS",
       "current": 119.0,
       "goal": 416.0,
-      "canProduce": 776.0,
+      "canProduce": 782.0,
       "remaining": 297.0,
       "completedJobs": 22,
       "goalJobs": 44,
@@ -53,7 +53,7 @@
       "unit": "PCS",
       "current": 108.0,
       "goal": 139.0,
-      "canProduce": 269.0,
+      "canProduce": 275.0,
       "remaining": 31.0,
       "completedJobs": 17,
       "goalJobs": 31,
@@ -62,12 +62,12 @@
     }
   ],
   "summary": {
-    "current": 349.0,
+    "current": 503.0,
     "goal": 1275.25,
-    "canProduce": 7125.4169999999995,
-    "remaining": 926.25,
-    "completedJobs": 41,
-    "goalJobs": 81,
-    "createdOrders": 15
+    "canProduce": 7457.4169999999995,
+    "remaining": 772.25,
+    "completedJobs": 42,
+    "goalJobs": 82,
+    "createdOrders": 16
   }
 }
