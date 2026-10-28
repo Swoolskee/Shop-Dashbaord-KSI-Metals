@@ -1,7 +1,7 @@
 {
   "businessDate": "2026-10-28",
   "businessDateLabel": "WEDNESDAY, OCTOBER 28",
-  "generatedAt": "2026-10-28T15:47:01Z",
+  "generatedAt": "2026-10-28T16:47:53Z",
   "timeZone": "America/Phoenix",
   "stations": [
     {
@@ -23,51 +23,51 @@
       "name": "Snaplock",
       "shortName": "SN",
       "unit": "LF",
-      "current": 0.0,
+      "current": 20.0,
       "goal": 20.0,
       "canProduce": 2593.5,
-      "remaining": 20.0,
-      "completedJobs": 0,
+      "remaining": 0.0,
+      "completedJobs": 1,
       "goalJobs": 1,
-      "topOperator": "-",
-      "topOperatorQuantity": 0
+      "topOperator": "Lee Rosenberg",
+      "topOperatorQuantity": 20.0
     },
     {
       "id": "bend",
       "name": "Bend",
       "shortName": "BD",
       "unit": "PCS",
-      "current": 45.0,
+      "current": 69.0,
       "goal": 416.0,
-      "canProduce": 734.0,
-      "remaining": 371.0,
-      "completedJobs": 9,
-      "goalJobs": 31,
+      "canProduce": 736.0,
+      "remaining": 347.0,
+      "completedJobs": 15,
+      "goalJobs": 38,
       "topOperator": "Justin A",
-      "topOperatorQuantity": 45.0
+      "topOperatorQuantity": 69.0
     },
     {
       "id": "pull-shear",
       "name": "Pull Pallets / Shear",
       "shortName": "PS",
       "unit": "PCS",
-      "current": 37.0,
+      "current": 51.0,
       "goal": 139.0,
-      "canProduce": 227.0,
-      "remaining": 102.0,
-      "completedJobs": 8,
-      "goalJobs": 22,
+      "canProduce": 229.0,
+      "remaining": 88.0,
+      "completedJobs": 10,
+      "goalJobs": 25,
       "topOperator": "Isaiah Evans",
-      "topOperatorQuantity": 37.0
+      "topOperatorQuantity": 51.0
     }
   ],
   "summary": {
-    "current": 82.0,
+    "current": 140.0,
     "goal": 1275.25,
-    "canProduce": 6874.5,
-    "remaining": 1193.25,
-    "completedJobs": 17,
-    "goalJobs": 58,
-    "createdOrders": 4
+    "canProduce": 6878.5,
+    "remaining": 1135.25,
+    "completedJobs": 26,
+    "goalJobs": 68,
+    "createdOrders": 6
   }
 }
