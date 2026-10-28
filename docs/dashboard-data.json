@@ -1,7 +1,7 @@
 {
   "businessDate": "2026-10-28",
   "businessDateLabel": "WEDNESDAY, OCTOBER 28",
-  "generatedAt": "2026-10-28T15:06:21Z",
+  "generatedAt": "2026-10-28T15:47:01Z",
   "timeZone": "America/Phoenix",
   "stations": [
     {
@@ -11,7 +11,7 @@
       "unit": "LF",
       "current": 0.0,
       "goal": 700.25,
-      "canProduce": 3040.0,
+      "canProduce": 3320.0,
       "remaining": 700.25,
       "completedJobs": 0,
       "goalJobs": 4,
@@ -39,7 +39,7 @@
       "unit": "PCS",
       "current": 45.0,
       "goal": 416.0,
-      "canProduce": 715.0,
+      "canProduce": 734.0,
       "remaining": 371.0,
       "completedJobs": 9,
       "goalJobs": 31,
@@ -53,7 +53,7 @@
       "unit": "PCS",
       "current": 37.0,
       "goal": 139.0,
-      "canProduce": 208.0,
+      "canProduce": 227.0,
       "remaining": 102.0,
       "completedJobs": 8,
       "goalJobs": 22,
@@ -64,10 +64,10 @@
   "summary": {
     "current": 82.0,
     "goal": 1275.25,
-    "canProduce": 6556.5,
+    "canProduce": 6874.5,
     "remaining": 1193.25,
     "completedJobs": 17,
     "goalJobs": 58,
-    "createdOrders": 2
+    "createdOrders": 4
   }
 }
