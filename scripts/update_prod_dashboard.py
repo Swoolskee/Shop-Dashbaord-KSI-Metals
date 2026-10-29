@@ -209,6 +209,11 @@ def main():
             raise RuntimeError(f"Missing MO {row['manufacturing_order_id']} for open row")
 
         mo_id = int(mo["id"])
+        # One-off hold: SO-23701 - Kells / 1 (Snaplock, 2573.5 LF).
+        # Exclude unfinished quantity from Can Produce until released for production.
+        # Completed production remains counted by the completed-rows loop above.
+        if station == "snaplock" and mo_id == 19691880:
+            continue
         qty = remaining_quantity(mo)
 
         if mo_id not in all_open_mos[station]:
