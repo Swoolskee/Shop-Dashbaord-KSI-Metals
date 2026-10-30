@@ -1,7 +1,7 @@
 {
   "businessDate": "2026-10-30",
   "businessDateLabel": "FRIDAY, OCTOBER 30",
-  "generatedAt": "2026-10-30T19:49:51Z",
+  "generatedAt": "2026-10-30T20:49:46Z",
   "timeZone": "America/Phoenix",
   "stations": [
     {
@@ -39,10 +39,10 @@
       "unit": "PCS",
       "current": 145.0,
       "goal": 344.0,
-      "canProduce": 776.0,
+      "canProduce": 669.0,
       "remaining": 199.0,
       "completedJobs": 25,
-      "goalJobs": 53,
+      "goalJobs": 49,
       "topOperator": "Justin A",
       "topOperatorQuantity": 145.0
     },
@@ -64,10 +64,10 @@
   "summary": {
     "current": 757.25,
     "goal": 1234.0,
-    "canProduce": 10693.25,
+    "canProduce": 10586.25,
     "remaining": 476.75,
     "completedJobs": 40,
-    "goalJobs": 93,
+    "goalJobs": 89,
     "createdOrders": 16
   }
 }
