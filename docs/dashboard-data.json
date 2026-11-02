@@ -1,7 +1,7 @@
 {
-  "businessDate": "2026-11-02",
-  "businessDateLabel": "MONDAY, NOVEMBER 2",
-  "generatedAt": "2026-11-02T23:06:46Z",
+  "businessDate": "2026-11-03",
+  "businessDateLabel": "TUESDAY, NOVEMBER 3",
+  "generatedAt": "2026-11-02T23:40:10.930Z",
   "timeZone": "America/Phoenix",
   "stations": [
     {
@@ -9,27 +9,27 @@
       "name": "Hayes",
       "shortName": "HY",
       "unit": "LF",
-      "current": 2447.5,
-      "goal": 838.25,
-      "canProduce": 3503.41667,
-      "remaining": 0,
-      "completedJobs": 8,
-      "goalJobs": 12,
-      "topOperator": "John Wrasse",
-      "topOperatorQuantity": 2447.5
+      "current": 0,
+      "goal": 700.25,
+      "canProduce": 1055.91667,
+      "remaining": 700.25,
+      "completedJobs": 0,
+      "goalJobs": 4,
+      "topOperator": "—",
+      "topOperatorQuantity": 0
     },
     {
       "id": "snaplock",
       "name": "Snaplock",
       "shortName": "SN",
       "unit": "LF",
-      "current": 0.0,
-      "goal": 0.0,
+      "current": 0,
+      "goal": 0,
       "canProduce": 175.75,
-      "remaining": 0.0,
+      "remaining": 0,
       "completedJobs": 0,
       "goalJobs": 0,
-      "topOperator": "-",
+      "topOperator": "—",
       "topOperatorQuantity": 0
     },
     {
@@ -37,37 +37,37 @@
       "name": "Bend",
       "shortName": "BD",
       "unit": "PCS",
-      "current": 307.0,
-      "goal": 396.0,
-      "canProduce": 562.0,
-      "remaining": 89.0,
-      "completedJobs": 24,
-      "goalJobs": 42,
-      "topOperator": "Tyler",
-      "topOperatorQuantity": 307.0
+      "current": 0,
+      "goal": 244,
+      "canProduce": 255,
+      "remaining": 244,
+      "completedJobs": 0,
+      "goalJobs": 17,
+      "topOperator": "—",
+      "topOperatorQuantity": 0
     },
     {
       "id": "pull-shear",
       "name": "Pull Pallets / Shear",
       "shortName": "PS",
       "unit": "PCS",
-      "current": 259.0,
-      "goal": 244.0,
-      "canProduce": 352.0,
-      "remaining": 0,
-      "completedJobs": 20,
-      "goalJobs": 34,
-      "topOperator": "Tim",
-      "topOperatorQuantity": 165.0
+      "current": 0,
+      "goal": 82,
+      "canProduce": 93,
+      "remaining": 82,
+      "completedJobs": 0,
+      "goalJobs": 14,
+      "topOperator": "—",
+      "topOperatorQuantity": 0
     }
   ],
   "summary": {
-    "current": 3013.5,
-    "goal": 1478.25,
-    "canProduce": 4593.1666700000005,
-    "remaining": 89.0,
-    "completedJobs": 52,
-    "goalJobs": 88,
-    "createdOrders": 9
+    "current": 0,
+    "goal": 1026.25,
+    "canProduce": 1579.66667,
+    "remaining": 1026.25,
+    "completedJobs": 0,
+    "goalJobs": 35,
+    "createdOrders": 0
   }
 }
