@@ -1,0 +1,435 @@
+{
+  "targetDate": "2026-11-03",
+  "asOf": "2026-11-02T23:38:09.889Z",
+  "timeZone": "America/Phoenix",
+  "kind": "end-of-day-next-day-projection",
+  "note": "Separate planning snapshot; Monday dashboard goals are unchanged. Tuesday dashboard automatically establishes and freezes Tuesday goals on its first successful Tuesday refresh using then-current Katana data.",
+  "stations": {
+    "Hayes": {
+      "due": 700.25,
+      "scheduled": 355.66667,
+      "jobsDue": 4,
+      "jobsScheduled": 5
+    },
+    "Snaplock": {
+      "due": 0,
+      "scheduled": 175.75,
+      "jobsDue": 0,
+      "jobsScheduled": 1
+    },
+    "Bend": {
+      "due": 244,
+      "scheduled": 11,
+      "jobsDue": 17,
+      "jobsScheduled": 4
+    },
+    "Pull Pallets / Shear": {
+      "due": 82,
+      "scheduled": 11,
+      "jobsDue": 14,
+      "jobsScheduled": 4
+    }
+  },
+  "openOperations": 49,
+  "unmatchedResources": [
+    "Cutting/Cleaning",
+    null
+  ],
+  "notes": [
+    "Excluded held SO-23701 Kells until released"
+  ],
+  "details": [
+    {
+      "order": "SO-23900 - 47797 / 1",
+      "resource": "Pull Pallets/Shear Flatsheet",
+      "quantity": 5,
+      "date": "2026-11-05",
+      "bucket": "scheduled",
+      "moId": 19912715
+    },
+    {
+      "order": "SO-23900 - 47797 / 1",
+      "resource": "Break/Bend",
+      "quantity": 5,
+      "date": "2026-11-05",
+      "bucket": "scheduled",
+      "moId": 19912715
+    },
+    {
+      "order": "SO-23899 - 47796 / 4",
+      "resource": "Pull Pallets/Shear Flatsheet",
+      "quantity": 2,
+      "date": "2026-11-05",
+      "bucket": "scheduled",
+      "moId": 19912336
+    },
+    {
+      "order": "SO-23899 - 47796 / 4",
+      "resource": "Break/Bend",
+      "quantity": 2,
+      "date": "2026-11-05",
+      "bucket": "scheduled",
+      "moId": 19912336
+    },
+    {
+      "order": "SO-23899 - 47796 / 3",
+      "resource": "Pull Pallets/Shear Flatsheet",
+      "quantity": 3,
+      "date": "2026-11-05",
+      "bucket": "scheduled",
+      "moId": 19912335
+    },
+    {
+      "order": "SO-23899 - 47796 / 3",
+      "resource": "Break/Bend",
+      "quantity": 3,
+      "date": "2026-11-05",
+      "bucket": "scheduled",
+      "moId": 19912335
+    },
+    {
+      "order": "SO-23899 - 47796 / 2",
+      "resource": "Pull Pallets/Shear Flatsheet",
+      "quantity": 1,
+      "date": "2026-11-05",
+      "bucket": "scheduled",
+      "moId": 19912334
+    },
+    {
+      "order": "SO-23899 - 47796 / 2",
+      "resource": "Break/Bend",
+      "quantity": 1,
+      "date": "2026-11-05",
+      "bucket": "scheduled",
+      "moId": 19912334
+    },
+    {
+      "order": "SO-23899 - 47796 / 1",
+      "resource": "Load/Run Coil - Hayes",
+      "quantity": 102.66667,
+      "date": "2026-11-05",
+      "bucket": "scheduled",
+      "moId": 19912333
+    },
+    {
+      "order": "SO-23897 - 1447052 / 1",
+      "resource": "Load/Run Coil - Hayes",
+      "quantity": 12,
+      "date": "2026-11-04",
+      "bucket": "scheduled",
+      "moId": 19912203
+    },
+    {
+      "order": "SO-23893 - 47790 / 1",
+      "resource": "Load/Run Coil - Hayes",
+      "quantity": 82,
+      "date": "2026-11-05",
+      "bucket": "scheduled",
+      "moId": 19909513
+    },
+    {
+      "order": "SO-23890 - 47789 / 1",
+      "resource": "Load/Run Coil - Hayes",
+      "quantity": 60,
+      "date": "2026-11-04",
+      "bucket": "scheduled",
+      "moId": 19883644
+    },
+    {
+      "order": "SO-23499 - SC Fish / 2",
+      "resource": "Pull Pallets/Shear Flatsheet",
+      "quantity": 7,
+      "date": "2026-10-08",
+      "bucket": "due",
+      "moId": 19879660
+    },
+    {
+      "order": "SO-23499 - SC Fish / 2",
+      "resource": "Break/Bend",
+      "quantity": 7,
+      "date": "2026-10-08",
+      "bucket": "due",
+      "moId": 19879660
+    },
+    {
+      "order": "SO-23884 - Hutchins / 1",
+      "resource": "Load/Run Coil - Snaplock",
+      "quantity": 175.75,
+      "date": "2026-11-06",
+      "bucket": "scheduled",
+      "moId": 19879258
+    },
+    {
+      "order": "SO-23879 - 9253735 - PHX / 1",
+      "resource": "Load/Run Coil - Hayes",
+      "quantity": 99,
+      "date": "2026-11-04",
+      "bucket": "scheduled",
+      "moId": 19877540
+    },
+    {
+      "order": "MO-1514",
+      "resource": "Pull Pallets/Shear Flatsheet",
+      "quantity": 6,
+      "date": "2026-10-13",
+      "bucket": "due",
+      "moId": 19579706
+    },
+    {
+      "order": "MO-1514",
+      "resource": "Break/Bend",
+      "quantity": 6,
+      "date": "2026-10-13",
+      "bucket": "due",
+      "moId": 19579706
+    },
+    {
+      "order": "MO-1513",
+      "resource": "Pull Pallets/Shear Flatsheet",
+      "quantity": 8,
+      "date": "2026-10-13",
+      "bucket": "due",
+      "moId": 19579700
+    },
+    {
+      "order": "MO-1513",
+      "resource": "Break/Bend",
+      "quantity": 8,
+      "date": "2026-10-13",
+      "bucket": "due",
+      "moId": 19579700
+    },
+    {
+      "order": "MO-1512",
+      "resource": "Load/Run Coil - Hayes",
+      "quantity": 265,
+      "date": "2026-10-13",
+      "bucket": "due",
+      "moId": 19579691
+    },
+    {
+      "order": "SO-23398 - Kendall / 2",
+      "resource": "Break/Bend",
+      "quantity": 3,
+      "date": "2026-10-06",
+      "bucket": "due",
+      "moId": 19346127
+    },
+    {
+      "order": "MO-1470",
+      "resource": "Pull Pallets/Shear Flatsheet",
+      "quantity": 1,
+      "date": "2026-09-23",
+      "bucket": "due",
+      "moId": 19230994
+    },
+    {
+      "order": "MO-1470",
+      "resource": "Break/Bend",
+      "quantity": 1,
+      "date": "2026-09-23",
+      "bucket": "due",
+      "moId": 19230994
+    },
+    {
+      "order": "MO-1469",
+      "resource": "Break/Bend",
+      "quantity": 10,
+      "date": "2026-09-23",
+      "bucket": "due",
+      "moId": 19230989
+    },
+    {
+      "order": "MO-1469",
+      "resource": "Pull Pallets/Shear Flatsheet",
+      "quantity": 10,
+      "date": "2026-09-23",
+      "bucket": "due",
+      "moId": 19230989
+    },
+    {
+      "order": "MO-1468",
+      "resource": "Pull Pallets/Shear Flatsheet",
+      "quantity": 1,
+      "date": "2026-09-23",
+      "bucket": "due",
+      "moId": 19230987
+    },
+    {
+      "order": "MO-1468",
+      "resource": "Break/Bend",
+      "quantity": 1,
+      "date": "2026-09-23",
+      "bucket": "due",
+      "moId": 19230987
+    },
+    {
+      "order": "MO-1467",
+      "resource": "Pull Pallets/Shear Flatsheet",
+      "quantity": 1,
+      "date": "2026-09-23",
+      "bucket": "due",
+      "moId": 19230984
+    },
+    {
+      "order": "MO-1467",
+      "resource": "Break/Bend",
+      "quantity": 1,
+      "date": "2026-09-23",
+      "bucket": "due",
+      "moId": 19230984
+    },
+    {
+      "order": "MO-1466",
+      "resource": "Break/Bend",
+      "quantity": 4,
+      "date": "2026-09-23",
+      "bucket": "due",
+      "moId": 19230983
+    },
+    {
+      "order": "MO-1466",
+      "resource": "Pull Pallets/Shear Flatsheet",
+      "quantity": 4,
+      "date": "2026-09-23",
+      "bucket": "due",
+      "moId": 19230983
+    },
+    {
+      "order": "MO-1465",
+      "resource": "Break/Bend",
+      "quantity": 9,
+      "date": "2026-09-23",
+      "bucket": "due",
+      "moId": 19230982
+    },
+    {
+      "order": "MO-1465",
+      "resource": "Pull Pallets/Shear Flatsheet",
+      "quantity": 9,
+      "date": "2026-09-23",
+      "bucket": "due",
+      "moId": 19230982
+    },
+    {
+      "order": "MO-1464",
+      "resource": "Pull Pallets/Shear Flatsheet",
+      "quantity": 6,
+      "date": "2026-09-23",
+      "bucket": "due",
+      "moId": 19230980
+    },
+    {
+      "order": "MO-1464",
+      "resource": "Break/Bend",
+      "quantity": 6,
+      "date": "2026-09-23",
+      "bucket": "due",
+      "moId": 19230980
+    },
+    {
+      "order": "MO-1463",
+      "resource": "Load/Run Coil - Hayes",
+      "quantity": 1,
+      "date": "2026-09-23",
+      "bucket": "due",
+      "moId": 19230979
+    },
+    {
+      "order": "MO-1462",
+      "resource": "Pull Pallets/Shear Flatsheet",
+      "quantity": 4,
+      "date": "2026-09-23",
+      "bucket": "due",
+      "moId": 19230978
+    },
+    {
+      "order": "MO-1462",
+      "resource": "Break/Bend",
+      "quantity": 4,
+      "date": "2026-09-23",
+      "bucket": "due",
+      "moId": 19230978
+    },
+    {
+      "order": "MO-1461",
+      "resource": "Pull Pallets/Shear Flatsheet",
+      "quantity": 10,
+      "date": "2026-09-23",
+      "bucket": "due",
+      "moId": 19230976
+    },
+    {
+      "order": "MO-1461",
+      "resource": "Break/Bend",
+      "quantity": 10,
+      "date": "2026-09-23",
+      "bucket": "due",
+      "moId": 19230976
+    },
+    {
+      "order": "MO-1460",
+      "resource": "Pull Pallets/Shear Flatsheet",
+      "quantity": 10,
+      "date": "2026-09-23",
+      "bucket": "due",
+      "moId": 19230972
+    },
+    {
+      "order": "MO-1460",
+      "resource": "Break/Bend",
+      "quantity": 10,
+      "date": "2026-09-23",
+      "bucket": "due",
+      "moId": 19230972
+    },
+    {
+      "order": "MO-1459",
+      "resource": "Pull Pallets/Shear Flatsheet",
+      "quantity": 5,
+      "date": "2026-09-23",
+      "bucket": "due",
+      "moId": 19230971
+    },
+    {
+      "order": "MO-1459",
+      "resource": "Break/Bend",
+      "quantity": 5,
+      "date": "2026-09-23",
+      "bucket": "due",
+      "moId": 19230971
+    },
+    {
+      "order": "MO-1454",
+      "resource": "Load/Run Coil - Hayes",
+      "quantity": 409.25,
+      "date": "2026-09-17",
+      "bucket": "due",
+      "moId": 19145971
+    },
+    {
+      "order": "MO-1444",
+      "resource": "Load/Run Coil - Hayes",
+      "quantity": 25,
+      "date": "2026-09-01",
+      "bucket": "due",
+      "moId": 18870142
+    },
+    {
+      "order": "MO-1405",
+      "resource": "Break/Bend",
+      "quantity": 153,
+      "date": "2026-07-29",
+      "bucket": "due",
+      "moId": 18288303
+    },
+    {
+      "order": "SO-23398 - Kendall / 1",
+      "resource": "Break/Bend",
+      "quantity": 6,
+      "date": "2026-10-06",
+      "bucket": "due",
+      "moId": 19346126
+    }
+  ]
+}
