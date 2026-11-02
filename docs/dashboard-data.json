@@ -1,7 +1,7 @@
 {
   "businessDate": "2026-11-02",
   "businessDateLabel": "MONDAY, NOVEMBER 2",
-  "generatedAt": "2026-11-02T21:59:52.012Z",
+  "generatedAt": "2026-11-02T22:02:32.748Z",
   "timeZone": "America/Phoenix",
   "stations": [
     {
@@ -57,8 +57,8 @@
       "remaining": 0,
       "completedJobs": 17,
       "goalJobs": 33,
-      "topOperator": "Tyler",
-      "topOperatorQuantity": 233
+      "topOperator": "Tim",
+      "topOperatorQuantity": 165
     }
   ],
   "summary": {
