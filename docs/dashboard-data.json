@@ -1,7 +1,7 @@
 {
   "businessDate": "2026-11-04",
   "businessDateLabel": "WEDNESDAY, NOVEMBER 4",
-  "generatedAt": "2026-11-04T20:32:18Z",
+  "generatedAt": "2026-11-04T20:49:25.519Z",
   "timeZone": "America/Phoenix",
   "stations": [
     {
@@ -9,14 +9,14 @@
       "name": "Hayes",
       "shortName": "HY",
       "unit": "LF",
-      "current": 2524.8333000000002,
+      "current": 2524.8333,
       "goal": 775.25,
       "canProduce": 4688.0833,
       "remaining": 0,
       "completedJobs": 7,
       "goalJobs": 11,
       "topOperator": "John Wrasse",
-      "topOperatorQuantity": 2509.8333000000002
+      "topOperatorQuantity": 2509.8333
     },
     {
       "id": "snaplock",
@@ -24,7 +24,7 @@
       "shortName": "SN",
       "unit": "LF",
       "current": 175.75,
-      "goal": 0.0,
+      "goal": 0,
       "canProduce": 1831.75,
       "remaining": 0,
       "completedJobs": 1,
@@ -37,37 +37,37 @@
       "name": "Bend",
       "shortName": "BD",
       "unit": "PCS",
-      "current": 152.0,
-      "goal": 249.0,
-      "canProduce": 685.0,
-      "remaining": 97.0,
+      "current": 152,
+      "goal": 249,
+      "canProduce": 685,
+      "remaining": 97,
       "completedJobs": 22,
       "goalJobs": 40,
       "topOperator": "Justin A",
-      "topOperatorQuantity": 152.0
+      "topOperatorQuantity": 152
     },
     {
       "id": "pull-shear",
       "name": "Pull Pallets / Shear",
       "shortName": "PS",
       "unit": "PCS",
-      "current": 22.0,
-      "goal": 82.0,
-      "canProduce": 393.0,
-      "remaining": 60.0,
+      "current": 22,
+      "goal": 82,
+      "canProduce": 393,
+      "remaining": 60,
       "completedJobs": 5,
       "goalJobs": 19,
       "topOperator": "Isaiah Evans",
-      "topOperatorQuantity": 22.0
+      "topOperatorQuantity": 22
     }
   ],
   "summary": {
-    "current": 2874.5833000000002,
+    "current": 2874.5833,
     "goal": 1106.25,
     "canProduce": 7597.8333,
-    "remaining": 157.0,
+    "remaining": 157,
     "completedJobs": 35,
     "goalJobs": 71,
-    "createdOrders": 15
+    "createdOrders": 17
   }
 }
