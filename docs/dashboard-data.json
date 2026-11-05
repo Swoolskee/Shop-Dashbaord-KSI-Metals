@@ -1,7 +1,7 @@
 {
   "businessDate": "2026-11-05",
   "businessDateLabel": "THURSDAY, NOVEMBER 5",
-  "generatedAt": "2026-11-05T21:38:52Z",
+  "generatedAt": "2026-11-05T21:56:11Z",
   "timeZone": "America/Phoenix",
   "stations": [
     {
@@ -11,10 +11,10 @@
       "unit": "LF",
       "current": 122.0,
       "goal": 954.7625,
-      "canProduce": 4368.0124,
+      "canProduce": 4844.2264,
       "remaining": 832.7625,
       "completedJobs": 2,
-      "goalJobs": 7,
+      "goalJobs": 10,
       "topOperator": "Isaiah Evans",
       "topOperatorQuantity": 122.0
     },
@@ -37,14 +37,14 @@
       "name": "Bend",
       "shortName": "BD",
       "unit": "PCS",
-      "current": 141.0,
+      "current": 215.0,
       "goal": 307.0,
       "canProduce": 906.0,
-      "remaining": 166.0,
-      "completedJobs": 18,
-      "goalJobs": 37,
+      "remaining": 92.0,
+      "completedJobs": 22,
+      "goalJobs": 41,
       "topOperator": "Justin A",
-      "topOperatorQuantity": 141.0
+      "topOperatorQuantity": 215.0
     },
     {
       "id": "pull-shear",
@@ -62,12 +62,12 @@
     }
   ],
   "summary": {
-    "current": 1014.1666299999999,
+    "current": 1088.16663,
     "goal": 1509.7625,
-    "canProduce": 8304.67903,
-    "remaining": 998.7625,
-    "completedJobs": 59,
-    "goalJobs": 95,
-    "createdOrders": 11
+    "canProduce": 8780.89303,
+    "remaining": 924.7625,
+    "completedJobs": 63,
+    "goalJobs": 102,
+    "createdOrders": 12
   }
 }
