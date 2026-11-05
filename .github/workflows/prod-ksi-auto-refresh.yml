@@ -1,5 +1,5 @@
 name: Prod KSI Auto Refresh
-# Manual refresh requested for the existing production board.
+# Manual refresh requested again for the existing production board.
 
 on:
   schedule:
