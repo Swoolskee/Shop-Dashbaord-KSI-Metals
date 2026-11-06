@@ -1,0 +1,83 @@
+name: Prod KSI End of Day Screenshot
+
+on:
+  schedule:
+    # 4:00 PM Arizona (UTC-7), Monday through Friday.
+    - cron: "0 23 * * 1-5"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: prod-ksi-dashboard-refresh
+  cancel-in-progress: false
+
+jobs:
+  capture-end-of-day:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - name: Check out existing board
+        uses: actions/checkout@v4
+        with:
+          ref: main
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install Katana and screenshot dependencies
+        run: |
+          python -m pip install --disable-pip-version-check requests playwright
+          python -m playwright install --with-deps chromium
+
+      - name: Verify Katana secret
+        env:
+          KATANA_API_KEY: ${{ secrets.Auto_Refresh_Katana }}
+        run: |
+          if [ -z "$KATANA_API_KEY" ]; then
+            echo "Missing Auto_Refresh_Katana repository secret."
+            exit 1
+          fi
+
+      - name: Refresh final Katana numbers
+        env:
+          KATANA_API_KEY: ${{ secrets.Auto_Refresh_Katana }}
+        run: python scripts/update_prod_dashboard.py
+
+      - name: Start local production board
+        run: |
+          cd docs
+          python -m http.server 8765 --bind 127.0.0.1 > /tmp/prod-ksi-http.log 2>&1 &
+          for attempt in 1 2 3 4 5 6 7 8 9 10; do
+            if curl -fsS http://127.0.0.1:8765/dashboard-data.json > /dev/null; then exit 0; fi
+            sleep 1
+          done
+          echo "Local dashboard server failed"
+          exit 1
+
+      - name: Capture verified end-of-day screenshot
+        id: screenshot
+        run: python scripts/capture_end_of_day.py
+
+      - name: Upload screenshot to workflow artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: prod-ksi-end-of-day-${{ steps.screenshot.outputs.business_date }}
+          path: ${{ steps.screenshot.outputs.image_path }}
+          retention-days: 90
+          if-no-files-found: error
+
+      - name: Save daily screenshot and refreshed numbers to GitHub
+        run: |
+          git config user.name "Prod KSI Bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add docs/dashboard-data.json "${{ steps.screenshot.outputs.image_path }}"
+          if git diff --cached --quiet; then
+            echo "No new screenshot or data to commit."
+            exit 0
+          fi
+          git commit -m "Archive Prod KSI end-of-day ${{ steps.screenshot.outputs.business_date }}"
+          git push origin HEAD:main
