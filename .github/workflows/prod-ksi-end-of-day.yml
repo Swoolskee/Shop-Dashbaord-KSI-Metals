@@ -81,3 +81,28 @@ jobs:
           fi
           git commit -m "Archive Prod KSI end-of-day ${{ steps.screenshot.outputs.business_date }}"
           git push origin HEAD:main
+
+      - name: Check Microsoft 365 email configuration
+        id: mail-config
+        env:
+          MS_TENANT_ID: ${{ secrets.MS_TENANT_ID }}
+          MS_CLIENT_ID: ${{ secrets.MS_CLIENT_ID }}
+          MS_CLIENT_SECRET: ${{ secrets.MS_CLIENT_SECRET }}
+          MS_SENDER_EMAIL: ${{ secrets.MS_SENDER_EMAIL }}
+        run: |
+          if [ -n "$MS_TENANT_ID" ] && [ -n "$MS_CLIENT_ID" ] && [ -n "$MS_CLIENT_SECRET" ] && [ -n "$MS_SENDER_EMAIL" ]; then
+            echo "enabled=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "enabled=false" >> "$GITHUB_OUTPUT"
+            echo "::warning::Microsoft 365 email is not yet configured. Screenshot remains archived in GitHub."
+          fi
+
+      - name: Email end-of-day screenshot through Outlook
+        if: steps.mail-config.outputs.enabled == 'true'
+        env:
+          MS_TENANT_ID: ${{ secrets.MS_TENANT_ID }}
+          MS_CLIENT_ID: ${{ secrets.MS_CLIENT_ID }}
+          MS_CLIENT_SECRET: ${{ secrets.MS_CLIENT_SECRET }}
+          MS_SENDER_EMAIL: ${{ secrets.MS_SENDER_EMAIL }}
+          SCREENSHOT_PATH: ${{ steps.screenshot.outputs.image_path }}
+        run: python scripts/email_end_of_day.py
