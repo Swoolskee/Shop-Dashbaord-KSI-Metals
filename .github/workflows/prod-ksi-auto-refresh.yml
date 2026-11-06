@@ -1,5 +1,5 @@
 name: Prod KSI Auto Refresh
-# Manual refresh requested November 6 after 9 AM Arizona for the existing production board.
+# Manual refresh requested November 6 for another independent production board sync.
 
 on:
   schedule:
