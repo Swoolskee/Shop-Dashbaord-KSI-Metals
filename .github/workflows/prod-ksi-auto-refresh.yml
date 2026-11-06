@@ -1,5 +1,5 @@
 name: Prod KSI Auto Refresh
-# Manual refresh requested for the existing production board (third trigger).
+# Manual refresh requested November 6 for the existing production board.
 
 on:
   schedule:
