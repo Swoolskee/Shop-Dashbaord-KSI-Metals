@@ -27,16 +27,20 @@ jobs:
           KATANA_API_KEY: ${{ secrets.Auto_Refresh_Katana }}
           WEEK_START: "2026-11-02"
         run: python scripts/generate_weekly_ops.py
+      - name: Add verified frozen goals and historical snapshots
+        run: python scripts/append_weekly_goals.py
       - name: Archive report in GitHub
         run: |
           git config user.name "KSI Reporting Bot"
           git config user.email "actions@users.noreply.github.com"
-          git add reports/Weekly_Ops_Report_2026-11-02.xlsx
+          git add reports/Weekly_Ops_Report_2026-11-02.xlsx reports/KSI_Weekly_Production_Report_2026-11-02_GOALS_VERIFIED.xlsx
           if git diff --cached --quiet; then exit 0; fi
           git commit -m "KSI weekly operations report November 2-6"
           git push origin HEAD:main
       - uses: actions/upload-artifact@v4
         with:
           name: KSI-Weekly-Ops-Nov-2-6
-          path: reports/Weekly_Ops_Report_2026-11-02.xlsx
+          path: |
+            reports/Weekly_Ops_Report_2026-11-02.xlsx
+            reports/KSI_Weekly_Production_Report_2026-11-02_GOALS_VERIFIED.xlsx
           retention-days: 90
