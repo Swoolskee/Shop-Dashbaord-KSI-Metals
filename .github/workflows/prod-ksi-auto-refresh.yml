@@ -1,5 +1,5 @@
 name: Prod KSI Auto Refresh
-# Manual refresh requested November 10, 2026 at 10:39 AM Arizona; preserve frozen goals.
+# Manual refresh requested November 10, 2026 again; preserve frozen goals.
 
 on:
   schedule:
