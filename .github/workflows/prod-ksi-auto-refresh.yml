@@ -1,5 +1,5 @@
 name: Prod KSI Auto Refresh
-# Manual board refresh requested November 11, 2026 at 11:48 AM Arizona; preserve frozen goals.
+# Manual production report refresh requested November 11, 2026 at 12:50 PM Arizona; preserve frozen goals.
 
 on:
   schedule:
