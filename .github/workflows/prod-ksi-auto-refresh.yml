@@ -1,5 +1,5 @@
 name: Prod KSI Auto Refresh
-# Manual production refresh requested November 12, 2026 at 1:41 PM Arizona; preserve frozen goals.
+# Morning snapshot and production report requested November 13, 2026 at 7:39 AM Arizona; reset goals for new business date.
 
 on:
   schedule:
