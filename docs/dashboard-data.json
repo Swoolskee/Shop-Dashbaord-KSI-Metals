@@ -1,7 +1,7 @@
 {
   "businessDate": "2026-11-16",
   "businessDateLabel": "MONDAY, NOVEMBER 16",
-  "generatedAt": "2026-11-16T19:38:49Z",
+  "generatedAt": "2026-11-16T20:45:06Z",
   "timeZone": "America/Phoenix",
   "stations": [
     {
@@ -9,12 +9,12 @@
       "name": "Hayes",
       "shortName": "HY",
       "unit": "LF",
-      "current": 551,
+      "current": 601,
       "goal": 240,
-      "canProduce": 863.1666,
+      "canProduce": 1613.1666,
       "remaining": 0,
-      "completedJobs": 3,
-      "goalJobs": 3,
+      "completedJobs": 4,
+      "goalJobs": 4,
       "topOperator": "Hayes",
       "topOperatorQuantity": 551
     },
@@ -37,14 +37,14 @@
       "name": "Bend",
       "shortName": "BD",
       "unit": "PCS",
-      "current": 130,
+      "current": 176,
       "goal": 489,
-      "canProduce": 926,
-      "remaining": 359,
-      "completedJobs": 14,
-      "goalJobs": 42,
+      "canProduce": 940,
+      "remaining": 313,
+      "completedJobs": 18,
+      "goalJobs": 46,
       "topOperator": "Justin A",
-      "topOperatorQuantity": 130
+      "topOperatorQuantity": 176
     },
     {
       "id": "pull-shear",
@@ -53,7 +53,7 @@
       "unit": "PCS",
       "current": 247,
       "goal": 315,
-      "canProduce": 752,
+      "canProduce": 766,
       "remaining": 68,
       "completedJobs": 32,
       "goalJobs": 50,
@@ -62,12 +62,12 @@
     }
   ],
   "summary": {
-    "current": 1044.6667,
+    "current": 1140.6667,
     "goal": 1044,
-    "canProduce": 4928.75,
-    "remaining": 427,
-    "completedJobs": 50,
-    "goalJobs": 96,
+    "canProduce": 5706.75,
+    "remaining": 381,
+    "completedJobs": 55,
+    "goalJobs": 101,
     "createdOrders": 15
   }
 }
