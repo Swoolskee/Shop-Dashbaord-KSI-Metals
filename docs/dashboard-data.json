@@ -1,7 +1,7 @@
 {
   "businessDate": "2026-11-17",
   "businessDateLabel": "TUESDAY, NOVEMBER 17",
-  "generatedAt": "2026-11-17T16:58:31Z",
+  "generatedAt": "2026-11-17T18:55:35Z",
   "timeZone": "America/Phoenix",
   "stations": [
     {
@@ -9,14 +9,14 @@
       "name": "Hayes",
       "shortName": "HY",
       "unit": "LF",
-      "current": 995,
+      "current": 1409.5833,
       "goal": 725,
-      "canProduce": 1663.9166,
+      "canProduce": 1713.9166,
       "remaining": 0,
-      "completedJobs": 3,
-      "goalJobs": 3,
+      "completedJobs": 7,
+      "goalJobs": 7,
       "topOperator": "John Wrasse",
-      "topOperatorQuantity": 995
+      "topOperatorQuantity": 1359.5833
     },
     {
       "id": "snaplock",
@@ -37,37 +37,37 @@
       "name": "Bend",
       "shortName": "BD",
       "unit": "PCS",
-      "current": 99,
+      "current": 146,
       "goal": 431,
-      "canProduce": 871,
-      "remaining": 332,
-      "completedJobs": 11,
-      "goalJobs": 36,
+      "canProduce": 1232,
+      "remaining": 285,
+      "completedJobs": 18,
+      "goalJobs": 43,
       "topOperator": "Justin A",
-      "topOperatorQuantity": 99
+      "topOperatorQuantity": 146
     },
     {
       "id": "pull-shear",
       "name": "Pull Pallets / Shear",
       "shortName": "PS",
       "unit": "PCS",
-      "current": 206,
+      "current": 327,
       "goal": 251,
-      "canProduce": 591,
-      "remaining": 45,
-      "completedJobs": 10,
-      "goalJobs": 28,
+      "canProduce": 952,
+      "remaining": 0,
+      "completedJobs": 19,
+      "goalJobs": 37,
       "topOperator": "Isaiah Evans",
-      "topOperatorQuantity": 206
+      "topOperatorQuantity": 327
     }
   ],
   "summary": {
-    "current": 1469,
+    "current": 2051.5833000000002,
     "goal": 1407,
-    "canProduce": 3294.9166,
-    "remaining": 377,
-    "completedJobs": 25,
-    "goalJobs": 68,
-    "createdOrders": 5
+    "canProduce": 4066.9166,
+    "remaining": 285,
+    "completedJobs": 45,
+    "goalJobs": 88,
+    "createdOrders": 8
   }
 }
