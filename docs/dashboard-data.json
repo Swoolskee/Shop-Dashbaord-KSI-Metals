@@ -1,7 +1,7 @@
 {
   "businessDate": "2026-11-17",
   "businessDateLabel": "TUESDAY, NOVEMBER 17",
-  "generatedAt": "2026-11-17T14:22:06Z",
+  "generatedAt": "2026-11-17T16:28:08Z",
   "timeZone": "America/Phoenix",
   "stations": [
     {
@@ -9,27 +9,27 @@
       "name": "Hayes",
       "shortName": "HY",
       "unit": "LF",
-      "current": 0.0,
-      "goal": 725.0,
-      "canProduce": 1393.9166,
-      "remaining": 725.0,
-      "completedJobs": 0,
-      "goalJobs": 2,
-      "topOperator": "-",
-      "topOperatorQuantity": 0
+      "current": 725,
+      "goal": 725,
+      "canProduce": 1663.9166,
+      "remaining": 0,
+      "completedJobs": 2,
+      "goalJobs": 3,
+      "topOperator": "John Wrasse",
+      "topOperatorQuantity": 725
     },
     {
       "id": "snaplock",
       "name": "Snaplock",
       "shortName": "SN",
       "unit": "LF",
-      "current": 0.0,
-      "goal": 0.0,
-      "canProduce": 169.0,
-      "remaining": 0.0,
+      "current": 0,
+      "goal": 0,
+      "canProduce": 169,
+      "remaining": 0,
       "completedJobs": 0,
       "goalJobs": 0,
-      "topOperator": "-",
+      "topOperator": "—",
       "topOperatorQuantity": 0
     },
     {
@@ -37,37 +37,37 @@
       "name": "Bend",
       "shortName": "BD",
       "unit": "PCS",
-      "current": 9.0,
-      "goal": 431.0,
-      "canProduce": 866.0,
-      "remaining": 422.0,
-      "completedJobs": 2,
-      "goalJobs": 32,
+      "current": 75,
+      "goal": 431,
+      "canProduce": 871,
+      "remaining": 356,
+      "completedJobs": 9,
+      "goalJobs": 34,
       "topOperator": "Justin A",
-      "topOperatorQuantity": 9.0
+      "topOperatorQuantity": 75
     },
     {
       "id": "pull-shear",
       "name": "Pull Pallets / Shear",
       "shortName": "PS",
       "unit": "PCS",
-      "current": 15.0,
-      "goal": 251.0,
-      "canProduce": 586.0,
-      "remaining": 236.0,
-      "completedJobs": 1,
-      "goalJobs": 22,
+      "current": 198,
+      "goal": 251,
+      "canProduce": 591,
+      "remaining": 53,
+      "completedJobs": 7,
+      "goalJobs": 25,
       "topOperator": "Isaiah Evans",
-      "topOperatorQuantity": 15.0
+      "topOperatorQuantity": 198
     }
   ],
   "summary": {
-    "current": 24.0,
-    "goal": 1407.0,
-    "canProduce": 3014.9166,
-    "remaining": 1383.0,
-    "completedJobs": 3,
-    "goalJobs": 56,
-    "createdOrders": 1
+    "current": 998,
+    "goal": 1407,
+    "canProduce": 3294.9166,
+    "remaining": 409,
+    "completedJobs": 18,
+    "goalJobs": 62,
+    "createdOrders": 5
   }
 }
