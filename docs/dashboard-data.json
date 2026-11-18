@@ -1,7 +1,7 @@
 {
   "businessDate": "2026-11-18",
   "businessDateLabel": "WEDNESDAY, NOVEMBER 18",
-  "generatedAt": "2026-11-18T14:10:33Z",
+  "generatedAt": "2026-11-18T16:02:43Z",
   "timeZone": "America/Phoenix",
   "stations": [
     {
@@ -9,14 +9,14 @@
       "name": "Hayes",
       "shortName": "HY",
       "unit": "LF",
-      "current": 0,
+      "current": 55,
       "goal": 0,
-      "canProduce": 1920.4167,
+      "canProduce": 1975.4167,
       "remaining": 0,
-      "completedJobs": 0,
-      "goalJobs": 0,
-      "topOperator": "—",
-      "topOperatorQuantity": 0
+      "completedJobs": 1,
+      "goalJobs": 1,
+      "topOperator": "Isaiah Evans",
+      "topOperatorQuantity": 55
     },
     {
       "id": "snaplock",
@@ -25,7 +25,7 @@
       "unit": "LF",
       "current": 0,
       "goal": 0,
-      "canProduce": 0,
+      "canProduce": 270,
       "remaining": 0,
       "completedJobs": 0,
       "goalJobs": 0,
@@ -39,7 +39,7 @@
       "unit": "PCS",
       "current": 0,
       "goal": 385,
-      "canProduce": 1091,
+      "canProduce": 1207,
       "remaining": 385,
       "completedJobs": 0,
       "goalJobs": 25,
@@ -51,23 +51,23 @@
       "name": "Pull Pallets / Shear",
       "shortName": "PS",
       "unit": "PCS",
-      "current": 0,
+      "current": 345,
       "goal": 211,
-      "canProduce": 808,
-      "remaining": 211,
-      "completedJobs": 0,
-      "goalJobs": 18,
-      "topOperator": "—",
-      "topOperatorQuantity": 0
+      "canProduce": 924,
+      "remaining": 0,
+      "completedJobs": 4,
+      "goalJobs": 22,
+      "topOperator": "Isaiah Evans",
+      "topOperatorQuantity": 345
     }
   ],
   "summary": {
-    "current": 0,
+    "current": 400,
     "goal": 596,
-    "canProduce": 3819.4166999999998,
-    "remaining": 596,
-    "completedJobs": 0,
-    "goalJobs": 43,
-    "createdOrders": 2
+    "canProduce": 4376.4167,
+    "remaining": 385,
+    "completedJobs": 5,
+    "goalJobs": 48,
+    "createdOrders": 5
   }
 }
