@@ -1,7 +1,7 @@
 {
   "businessDate": "2026-11-18",
   "businessDateLabel": "WEDNESDAY, NOVEMBER 18",
-  "generatedAt": "2026-11-18T22:59:11Z",
+  "generatedAt": "2026-11-19T02:47:37Z",
   "timeZone": "America/Phoenix",
   "stations": [
     {
@@ -10,7 +10,7 @@
       "shortName": "HY",
       "unit": "LF",
       "current": 1309.4167,
-      "goal": 0,
+      "goal": 0.0,
       "canProduce": 2506.4166999999998,
       "remaining": 0,
       "completedJobs": 2,
@@ -23,49 +23,49 @@
       "name": "Snaplock",
       "shortName": "SN",
       "unit": "LF",
-      "current": 270,
-      "goal": 0,
+      "current": 270.0,
+      "goal": 0.0,
       "canProduce": 2817.6667,
       "remaining": 0,
       "completedJobs": 1,
       "goalJobs": 1,
       "topOperator": "Lee Rosenberg",
-      "topOperatorQuantity": 270
+      "topOperatorQuantity": 270.0
     },
     {
       "id": "bend",
       "name": "Bend",
       "shortName": "BD",
       "unit": "PCS",
-      "current": 258,
-      "goal": 385,
-      "canProduce": 1334,
-      "remaining": 127,
+      "current": 258.0,
+      "goal": 385.0,
+      "canProduce": 1334.0,
+      "remaining": 127.0,
       "completedJobs": 32,
       "goalJobs": 57,
       "topOperator": "Justin A",
-      "topOperatorQuantity": 258
+      "topOperatorQuantity": 258.0
     },
     {
       "id": "pull-shear",
       "name": "Pull Pallets / Shear",
       "shortName": "PS",
       "unit": "PCS",
-      "current": 564,
-      "goal": 211,
-      "canProduce": 1051,
+      "current": 564.0,
+      "goal": 211.0,
+      "canProduce": 1051.0,
       "remaining": 0,
       "completedJobs": 36,
       "goalJobs": 54,
       "topOperator": "Isaiah Evans",
-      "topOperatorQuantity": 564
+      "topOperatorQuantity": 564.0
     }
   ],
   "summary": {
     "current": 2401.4166999999998,
-    "goal": 596,
+    "goal": 596.0,
     "canProduce": 7709.0833999999995,
-    "remaining": 127,
+    "remaining": 127.0,
     "completedJobs": 71,
     "goalJobs": 114,
     "createdOrders": 18
