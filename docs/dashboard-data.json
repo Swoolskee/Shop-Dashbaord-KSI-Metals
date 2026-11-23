@@ -1,7 +1,7 @@
 {
   "businessDate": "2026-11-23",
   "businessDateLabel": "MONDAY, NOVEMBER 23",
-  "generatedAt": "2026-11-23T14:09:36Z",
+  "generatedAt": "2026-11-23T18:54:40.846Z",
   "timeZone": "America/Phoenix",
   "stations": [
     {
@@ -9,14 +9,14 @@
       "name": "Hayes",
       "shortName": "HY",
       "unit": "LF",
-      "current": 0,
+      "current": 111,
       "goal": 0,
-      "canProduce": 111,
+      "canProduce": 903.6663,
       "remaining": 0,
-      "completedJobs": 0,
-      "goalJobs": 0,
-      "topOperator": "—",
-      "topOperatorQuantity": 0
+      "completedJobs": 2,
+      "goalJobs": 2,
+      "topOperator": "Hayes",
+      "topOperatorQuantity": 111
     },
     {
       "id": "snaplock",
@@ -37,37 +37,37 @@
       "name": "Bend",
       "shortName": "BD",
       "unit": "PCS",
-      "current": 30,
+      "current": 180,
       "goal": 904,
-      "canProduce": 1311,
-      "remaining": 874,
-      "completedJobs": 6,
-      "goalJobs": 51,
+      "canProduce": 1357,
+      "remaining": 724,
+      "completedJobs": 15,
+      "goalJobs": 56,
       "topOperator": "Justin A",
-      "topOperatorQuantity": 30
+      "topOperatorQuantity": 165
     },
     {
       "id": "pull-shear",
       "name": "Pull Pallets / Shear",
       "shortName": "PS",
       "unit": "PCS",
-      "current": 1,
+      "current": 266,
       "goal": 323,
-      "canProduce": 640,
-      "remaining": 322,
-      "completedJobs": 1,
-      "goalJobs": 28,
-      "topOperator": "Justin A",
-      "topOperatorQuantity": 1
+      "canProduce": 686,
+      "remaining": 57,
+      "completedJobs": 24,
+      "goalJobs": 51,
+      "topOperator": "Isaiah Evans",
+      "topOperatorQuantity": 265
     }
   ],
   "summary": {
-    "current": 31,
+    "current": 557,
     "goal": 3800.5,
-    "canProduce": 8001.9167,
-    "remaining": 3769.5,
-    "completedJobs": 7,
-    "goalJobs": 80,
-    "createdOrders": 1
+    "canProduce": 8886.582999999999,
+    "remaining": 3354.5,
+    "completedJobs": 41,
+    "goalJobs": 110,
+    "createdOrders": 7
   }
 }
