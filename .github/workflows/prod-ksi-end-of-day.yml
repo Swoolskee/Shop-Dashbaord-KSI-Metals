@@ -14,7 +14,28 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
+  inventory_gate:
+    name: Check Arizona inventory dates
+    runs-on: ubuntu-latest
+    outputs:
+      run: ${{ steps.dates.outputs.run }}
+    steps:
+      - id: dates
+        shell: bash
+        run: |
+          case "$(TZ=America/Phoenix date +%F)" in
+            2026-11-24|2026-11-25|2026-11-26|2026-11-27)
+              echo 'run=false' >> "$GITHUB_OUTPUT"
+              echo 'KSI inventory: skipping the scheduled board refresh.'
+              ;;
+            *)
+              echo 'run=true' >> "$GITHUB_OUTPUT"
+              ;;
+          esac
+
   capture-end-of-day:
+    needs: inventory_gate
+    if: needs.inventory_gate.outputs.run == 'true'
     runs-on: ubuntu-latest
     timeout-minutes: 20
     steps:
