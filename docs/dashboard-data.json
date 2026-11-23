@@ -1,7 +1,7 @@
 {
   "businessDate": "2026-11-23",
   "businessDateLabel": "MONDAY, NOVEMBER 23",
-  "generatedAt": "2026-11-23T18:54:40.846Z",
+  "generatedAt": "2026-11-23T20:41:50.858Z",
   "timeZone": "America/Phoenix",
   "stations": [
     {
@@ -23,51 +23,51 @@
       "name": "Snaplock",
       "shortName": "SN",
       "unit": "LF",
-      "current": 0,
+      "current": 198,
       "goal": 2573.5,
-      "canProduce": 5939.9167,
-      "remaining": 2573.5,
-      "completedJobs": 0,
-      "goalJobs": 1,
-      "topOperator": "—",
-      "topOperatorQuantity": 0
+      "canProduce": 6137.9167,
+      "remaining": 2375.5,
+      "completedJobs": 2,
+      "goalJobs": 3,
+      "topOperator": "Lee Rosenberg",
+      "topOperatorQuantity": 198
     },
     {
       "id": "bend",
       "name": "Bend",
       "shortName": "BD",
       "unit": "PCS",
-      "current": 180,
+      "current": 280,
       "goal": 904,
-      "canProduce": 1357,
-      "remaining": 724,
-      "completedJobs": 15,
-      "goalJobs": 56,
+      "canProduce": 1335,
+      "remaining": 624,
+      "completedJobs": 16,
+      "goalJobs": 53,
       "topOperator": "Justin A",
-      "topOperatorQuantity": 165
+      "topOperatorQuantity": 265
     },
     {
       "id": "pull-shear",
       "name": "Pull Pallets / Shear",
       "shortName": "PS",
       "unit": "PCS",
-      "current": 266,
+      "current": 297,
       "goal": 323,
-      "canProduce": 686,
-      "remaining": 57,
-      "completedJobs": 24,
-      "goalJobs": 51,
+      "canProduce": 664,
+      "remaining": 26,
+      "completedJobs": 29,
+      "goalJobs": 53,
       "topOperator": "Isaiah Evans",
-      "topOperatorQuantity": 265
+      "topOperatorQuantity": 296
     }
   ],
   "summary": {
-    "current": 557,
+    "current": 886,
     "goal": 3800.5,
-    "canProduce": 8886.582999999999,
-    "remaining": 3354.5,
-    "completedJobs": 41,
-    "goalJobs": 110,
-    "createdOrders": 7
+    "canProduce": 9040.582999999999,
+    "remaining": 3025.5,
+    "completedJobs": 49,
+    "goalJobs": 111,
+    "createdOrders": 9
   }
 }
